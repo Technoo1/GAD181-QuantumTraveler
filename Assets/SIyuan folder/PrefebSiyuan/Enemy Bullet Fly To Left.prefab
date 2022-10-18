@@ -13,10 +13,11 @@ GameObject:
   - component: {fileID: 5813505872864077265}
   - component: {fileID: 5813505872864077262}
   - component: {fileID: 5813505872864077263}
-  - component: {fileID: 5813505872864077260}
+  - component: {fileID: -7456002862657972275}
+  - component: {fileID: -344247966617848913}
   m_Layer: 0
-  m_Name: Enemy Bullet
-  m_TagString: Untagged
+  m_Name: Enemy Bullet Fly To Left
+  m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,7 +95,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5813505872864077261}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -115,7 +116,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &5813505872864077260
+--- !u!114 &-7456002862657972275
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,7 +125,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 5813505872864077261}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4baa9f203e54554382f350d9446d75d, type: 3}
+  m_Script: {fileID: 11500000, guid: a19e8b3e0643c0b4ca2b00b19953da26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _spd: 6
+--- !u!114 &-344247966617848913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5813505872864077261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce14b78a97e03b54ab2e8b839fd2aec7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
