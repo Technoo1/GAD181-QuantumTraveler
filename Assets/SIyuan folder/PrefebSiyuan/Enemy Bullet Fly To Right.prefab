@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5813505872864077263}
   - component: {fileID: 5813505872864077260}
   - component: {fileID: 2585366930341753935}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enemy Bullet Fly To Right
   m_TagString: EnemyBullet
   m_Icon: {fileID: 0}

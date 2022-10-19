@@ -10,7 +10,7 @@ public class DraftBullet2 : MonoBehaviour
     {
         BulletSiyuanMovement1();
 
-        Object.Destroy(gameObject, 2.4f);
+        Object.Destroy(gameObject,2.4f);
         //Set a delay time to remove the bullet.
     }
 

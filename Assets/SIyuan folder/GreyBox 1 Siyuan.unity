@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -603,7 +603,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 687975754}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.19, y: 9.68, z: 12.09}
+  m_LocalPosition: {x: 31.94, y: 9.68, z: 11.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1010,9 +1010,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d0545e83f763a94bae5920cb407e90d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bulletS1: {fileID: 5813505872864077261, guid: 0870db7dd72282c4bba4e41ce906eda8, type: 3}
+  _bulletS1R: {fileID: 5813505872864077261, guid: 0870db7dd72282c4bba4e41ce906eda8, type: 3}
   fireCheckS1: 0
-  fireRate: 24
+  fireRate: 21
 --- !u!1 &1418875101
 GameObject:
   m_ObjectHideFlags: 0
@@ -1104,7 +1104,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1418875101}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.02, y: 10.913, z: 21.37}
+  m_LocalPosition: {x: 22.02, y: 10.913, z: 21.36}
   m_LocalScale: {x: 0.85858, y: 0.85858, z: 0.6866579}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1123,9 +1123,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d0545e83f763a94bae5920cb407e90d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bulletS1: {fileID: 5813505872864077261, guid: 0870db7dd72282c4bba4e41ce906eda8, type: 3}
+  _bulletS1R: {fileID: 5813505872864077261, guid: 0870db7dd72282c4bba4e41ce906eda8, type: 3}
   fireCheckS1: 0
-  fireRate: 51
+  fireRate: 47
 --- !u!1 &1524392957
 GameObject:
   m_ObjectHideFlags: 0
@@ -1217,7 +1217,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1524392957}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39.93, y: 8.11, z: 21.43}
+  m_LocalPosition: {x: 39.93, y: 8.11, z: 21.16}
   m_LocalScale: {x: 0.85858, y: 0.85858, z: 0.6866579}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1233,12 +1233,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1524392957}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d0545e83f763a94bae5920cb407e90d, type: 3}
+  m_Script: {fileID: 11500000, guid: e2f4d2b15dfd3844292d97968f027655, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bulletS1: {fileID: 5813505872864077261, guid: 57a0d08bac59b4443aa20498f7216e95, type: 3}
+  _bulletS1L: {fileID: 5813505872864077261, guid: 57a0d08bac59b4443aa20498f7216e95, type: 3}
   fireCheckS1: 0
-  fireRate: 8
+  fireRate: 9
 --- !u!1 &1770459758
 GameObject:
   m_ObjectHideFlags: 0
@@ -1348,7 +1348,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1770459758}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.32, y: 8.05, z: 21.59}
+  m_LocalPosition: {x: 27.01, y: 8.05, z: 21.33}
   m_LocalScale: {x: 0.80554, y: 0.7227551, z: 0.80554}
   m_ConstrainProportionsScale: 0
   m_Children: []

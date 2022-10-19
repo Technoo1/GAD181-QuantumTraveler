@@ -6,7 +6,7 @@ public class DrMBulletFunction1 : MonoBehaviour
 {
     void Start()
     {
-       // Physics.IgnoreCollision(GetComponent<Collider>(), GetComponent<Collider>(gameObject.tag == "EnemyBullet"));  Ask Matt for help!
+        Physics.IgnoreLayerCollision(6, 6);  //Ignore the collision that happened on layer 6 , use TAG-Layer on these bullet prefebs. 
     }
 
     private void OnCollisionEnter(Collision collision)  //method of "using collision condition to check status"
@@ -16,6 +16,10 @@ public class DrMBulletFunction1 : MonoBehaviour
             Destroy(collision.gameObject);
             Destroy(gameObject); //destroy this gameobject itself
         }
+           else
+           {
+            Destroy(gameObject);
+           }
        
     }
 

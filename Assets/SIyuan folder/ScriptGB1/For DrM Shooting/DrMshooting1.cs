@@ -12,20 +12,21 @@ public class DrMshooting1 : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             leftCheck = false;
             rightCheck = true;
         }
 
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             leftCheck = true;
             rightCheck = false;
         }
 
-        if (Input.GetKeyUp(KeyCode.J))   //Use GetKeyUp here! 
-           {
+        if (Input.GetKeyUp(KeyCode.Z))   //Use GetKeyUp here! 
+        {
+
             if (rightCheck == true)
              {
                 ShootPosition = transform.position + new Vector3(1f, 0, 0);
@@ -35,9 +36,9 @@ public class DrMshooting1 : MonoBehaviour
 
             if (leftCheck == true)
             {
-                ShootPosition = transform.position - new Vector3(1f, 0, 0);    // Currently have a small bug here.
+                ShootPosition = transform.position + new Vector3(-1f, 0, 0); 
 
-                Instantiate(_bulletS2L, transform.position, Quaternion.identity);
+                Instantiate(_bulletS2L, ShootPosition, Quaternion.identity);
             }
         }
     }

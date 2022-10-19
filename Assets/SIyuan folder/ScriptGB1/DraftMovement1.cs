@@ -18,18 +18,18 @@ public class DraftMovement1 : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             transform.Translate(Vector3.right * Time.deltaTime * DrSpeed);
         }
 
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             transform.Translate(Vector3.left * Time.deltaTime * DrSpeed);
         }   
         //Moving left and right.
 
-        if (isGrounded && Input.GetKeyDown(KeyCode.W))
+        if (isGrounded && Input.GetKeyDown(KeyCode.UpArrow))
         {
             DrM.AddForce(Vector3.up * jumpForce , ForceMode.Impulse); 
         }

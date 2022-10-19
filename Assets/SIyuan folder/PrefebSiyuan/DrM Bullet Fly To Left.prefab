@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5813505872864077263}
   - component: {fileID: -7456002862657972275}
   - component: {fileID: -8626547457960216418}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DrM Bullet Fly To Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
