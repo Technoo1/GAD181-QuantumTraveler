@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
        if (Input.GetKey(KeyCode.Space))
        
        //"speed" means the jump velocity is the same as movement velocity. Can be adjusted by replacing with number. 
-       body.velocity = new Vector2(body.velocity.x, speed);
+        // jump is more vertical when jumpspeed > movementspeed
+       body.velocity = new Vector2(body.velocity.x, 15);
    }
 }
