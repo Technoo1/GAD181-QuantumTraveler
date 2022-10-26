@@ -12,8 +12,8 @@ public class EnemyShootingS1Left : MonoBehaviour
 
     public void Update()
     {
-       fireCheckS1 = Random.Range(0, 1000); //returns random int number between 0-999.
-        if (checkT1.difficultyL2 == true)
+       fireCheckS1 = Random.Range(0, 1000); //Returns random int number between 0-999.
+        if (checkT1.difficultyL2 == true) //Use variables from another script.
         {
             fireRate = 30; //Difficulty level 2.
         }
