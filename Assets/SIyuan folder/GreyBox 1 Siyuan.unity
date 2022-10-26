@@ -1572,10 +1572,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6ac81d76eff2964181e75ebad393b55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  degreesPerSecond: 10
-  DSpeed2: 30
-  DSpeed3: 70
   checkT1: {fileID: 797586148}
+  degreesPerSecond: 10
+  DSpeed2: 35
+  DSpeed3: 70
 --- !u!1 &1770459758
 GameObject:
   m_ObjectHideFlags: 0
@@ -1870,10 +1870,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6ac81d76eff2964181e75ebad393b55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  degreesPerSecond: 10
-  DSpeed2: 25
-  DSpeed3: 65
   checkT1: {fileID: 797586148}
+  degreesPerSecond: 10
+  DSpeed2: 35
+  DSpeed3: 70
 --- !u!1 &1902897721
 GameObject:
   m_ObjectHideFlags: 0
