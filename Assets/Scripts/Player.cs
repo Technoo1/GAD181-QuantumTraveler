@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public float playerSpeedY;
     public float playerSpeedX;
+    public float playerSpeedY;
     private Rigidbody2D rb;
     private Vector2 playerDirection;
 
@@ -18,8 +18,8 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float directionY = Input.GetAxisRaw("Vertical");
         float directionX = Input.GetAxisRaw("Horizontal");
+        float directionY = Input.GetAxisRaw("Vertical");
         playerDirection = new Vector2(directionX,directionY).normalized;
 
 
