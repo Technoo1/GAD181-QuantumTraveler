@@ -23,9 +23,19 @@ public class Obstacle : MonoBehaviour
     void Die()
     {
         Instantiate(deathEffect, transform.position, Quaternion.identity);
-        Destroy(gameObject);
+        Destroy(this.gameObject);
+        
+        
 
     }
-        
+
+
+    void OnTriggerEnter2D(Collider2D collision) 
+    {
+        if(collision.tag == "Border")
+        {
+            Destroy(this.gameObject);
+        }
+    }    
     
 }
