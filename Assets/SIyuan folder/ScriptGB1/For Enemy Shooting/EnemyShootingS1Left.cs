@@ -27,7 +27,7 @@ public class EnemyShootingS1Left : MonoBehaviour
     {
         if (fireCheckS1 <= fireRate)
         {
-            ShootPosition = transform.position + new Vector3(-0.7f, 0, 0);
+            ShootPosition = transform.position + new Vector3(-0.8f, 0, 0);
 
                 Instantiate(_bulletS1L, ShootPosition, Quaternion.identity);
         }

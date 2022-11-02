@@ -11,7 +11,10 @@ public class DestroyFunctionBulletE : MonoBehaviour
             Destroy(collision.gameObject);
             Destroy(gameObject); //destroy this gameobject itself
         }
-        
+        else
+        {
+            Destroy(gameObject); //destroy this gameobject itself
+        }
     }
 
 }
