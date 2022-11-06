@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a015036c0678b794d94e681702282db7
+guid: 81352576789d304489c4b94cb355b64d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -107,19 +107,19 @@ TextureImporter:
       name: DrMichael_JumpSpritesheet_0
       rect:
         serializedVersion: 2
-        x: 48
+        x: 96
         y: 3097
         width: 806
-        height: 1855
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        height: 1255
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fde5c08fa83797742961f11678b170c9
-      internalID: -1311137364
+      spriteID: 5268911a75d588b4e96f290c8c652d7f
+      internalID: -706085272
       vertices: []
       indices: 
       edges: []
@@ -128,10 +128,10 @@ TextureImporter:
       name: DrMichael_JumpSpritesheet_1
       rect:
         serializedVersion: 2
-        x: 897
+        x: 946
         y: 3097
         width: 806
-        height: 1855
+        height: 1155
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,8 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6019ba6d76a9b7c4c904491285946116
-      internalID: -2118347347
+      spriteID: a7c6df53788707f499eaaffbe518673e
+      internalID: 2023361622
       vertices: []
       indices: 
       edges: []
@@ -149,10 +149,10 @@ TextureImporter:
       name: DrMichael_JumpSpritesheet_2
       rect:
         serializedVersion: 2
-        x: 1747
-        y: 3097
-        width: 806
-        height: 1855
+        x: 1847
+        y: 3646
+        width: 705
+        height: 1258
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b1349dbe54431b47b30f45aff328e1e
-      internalID: 635715730
+      spriteID: 881678dfa56513e4a8b0f0e9a0e91b3e
+      internalID: 563207818
       vertices: []
       indices: 
       edges: []
@@ -170,10 +170,10 @@ TextureImporter:
       name: DrMichael_JumpSpritesheet_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 1244
-        width: 806
-        height: 1855
+        x: 96
+        y: 1547
+        width: 757
+        height: 1306
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1d590a2e5902284fa0859ffbf7497ca
-      internalID: 829872629
+      spriteID: f1cb43454aef333438960a274ccf70f5
+      internalID: -1759697044
       vertices: []
       indices: 
       edges: []
@@ -191,10 +191,10 @@ TextureImporter:
       name: DrMichael_JumpSpritesheet_4
       rect:
         serializedVersion: 2
-        x: 897
-        y: 1244
-        width: 806
-        height: 1855
+        x: 946
+        y: 1246
+        width: 757
+        height: 1358
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,8 +202,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63175b81b1beacc4c853f34b131b8308
-      internalID: -1012496072
+      spriteID: 0e67b5043963b034aa1d8533920bed8e
+      internalID: -933350416
       vertices: []
       indices: 
       edges: []
@@ -212,10 +212,10 @@ TextureImporter:
       name: DrMichael_JumpSpritesheet_5
       rect:
         serializedVersion: 2
-        x: 1747
-        y: 1244
-        width: 806
-        height: 1855
+        x: 1796
+        y: 1146
+        width: 808
+        height: 1157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,8 +223,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1810f9259bf7e44593a9fd6573db4e0
-      internalID: -100401814
+      spriteID: 52238c941557393429937dfb7cce99c8
+      internalID: 1472149437
       vertices: []
       indices: 
       edges: []
@@ -232,7 +232,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: bd3b70c3104028d48a490c13b00289ff
+    spriteID: 1908f4c8894029249bb40c3c2daf1d54
     internalID: 0
     vertices: []
     indices: 
@@ -240,12 +240,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DrMichael_JumpSpritesheet_3: 829872629
-      DrMichael_JumpSpritesheet_5: -100401814
-      DrMichael_JumpSpritesheet_0: -1311137364
-      DrMichael_JumpSpritesheet_2: 635715730
-      DrMichael_JumpSpritesheet_1: -2118347347
-      DrMichael_JumpSpritesheet_4: -1012496072
+      DrMichael_JumpSpritesheet_3: -1759697044
+      DrMichael_JumpSpritesheet_5: 1472149437
+      DrMichael_JumpSpritesheet_0: -706085272
+      DrMichael_JumpSpritesheet_2: 563207818
+      DrMichael_JumpSpritesheet_1: 2023361622
+      DrMichael_JumpSpritesheet_4: -933350416
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
