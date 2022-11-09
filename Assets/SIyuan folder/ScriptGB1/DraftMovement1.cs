@@ -1,42 +1,51 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class DraftMovement1 : MonoBehaviour
+namespace S1
 {
-    public float DrSpeed = 3.0f;
-    public Rigidbody DrM;
-    public float jumpForce = 6.0f;
-    public bool isGrounded;
-    void Start()
+    public class DraftMovement1 : MonoBehaviour
     {
-        DrSpeed = 3.0f;
-    }
-    private void OnCollisionStay()
-    {
-        isGrounded = true;
-    }
-    void Update()
-    {
-        if (Input.GetKey(KeyCode.RightArrow))
+        public float DrSpeed = 3.0f;
+        public Rigidbody DrM;
+        public float jumpForce = 6.8f;
+        public bool isGrounded;
+        public Animator anim;
+        void Start()
         {
-            transform.Translate(Vector3.right * Time.deltaTime * DrSpeed);
+            DrSpeed = 3.0f;
         }
-
-        if (Input.GetKey(KeyCode.LeftArrow))
+        private void OnCollisionStay()
         {
-            transform.Translate(Vector3.left * Time.deltaTime * DrSpeed);
-        }   
-        //Moving left and right.
-
-        if (isGrounded && Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            DrM.AddForce(Vector3.up * jumpForce , ForceMode.Impulse); 
+            isGrounded = true;
         }
-        //Simple jump with ground check.
-    }
-    private void OnCollisionExit()
-    {
-        isGrounded = false;
+        void Update()
+        {
+            anim.SetBool("WalkWithGun", false);
+            if (Input.GetKey(KeyCode.RightArrow))
+            {
+                transform.Translate(Vector3.right * Time.deltaTime * DrSpeed);
+                anim.SetBool("WalkWithGun", true);
+                this.transform.localRotation = Quaternion.Euler(0, 0, 0);
+            }
+
+
+            if (Input.GetKey(KeyCode.LeftArrow))
+            {
+                transform.Translate(Vector3.right * Time.deltaTime * DrSpeed);
+                anim.SetBool("WalkWithGun", true);
+                this.transform.localRotation = Quaternion.Euler(0, 180, 0);
+            }
+            //Moving left and right.
+
+            if (isGrounded && Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                DrM.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            }
+            //Simple jump with ground check.
+        }
+        private void OnCollisionExit()
+        {
+            isGrounded = false;
+        }
     }
 }

@@ -1,44 +1,46 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class DrMshooting1 : MonoBehaviour
+namespace S1
 {
-    [SerializeField] private GameObject _bulletS2R; //bullet objects with different directions.
-    [SerializeField] private GameObject _bulletS2L;
-    bool leftCheck = false;
-    bool rightCheck = true;
-    Vector3 ShootPosition; //Set a Vector3 position for shooting distance
-
-    void Update()
+    public class DrMshooting1 : MonoBehaviour
     {
-        if (Input.GetKey(KeyCode.RightArrow))
+        [SerializeField] private GameObject _bulletS2R; //bullet objects with different directions.
+        [SerializeField] private GameObject _bulletS2L;
+        bool leftCheck = false;
+        bool rightCheck = true;
+        Vector3 ShootPosition; //Set a Vector3 position for shooting distance
+
+        void Update()
         {
-            leftCheck = false;
-            rightCheck = true;
-        }
-
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            leftCheck = true;
-            rightCheck = false;
-        }
-
-        if (Input.GetKeyUp(KeyCode.Z))   //Use GetKeyUp here! 
-        {
-
-            if (rightCheck == true)
-             {
-                ShootPosition = transform.position + new Vector3(1f, 0, 0);
-
-                Instantiate(_bulletS2R, ShootPosition, Quaternion.identity);
-             }
-
-            if (leftCheck == true)
+            if (Input.GetKey(KeyCode.RightArrow))
             {
-                ShootPosition = transform.position + new Vector3(-1f, 0, 0); 
+                leftCheck = false;
+                rightCheck = true;
+            }
 
-                Instantiate(_bulletS2L, ShootPosition, Quaternion.identity);
+            if (Input.GetKey(KeyCode.LeftArrow))
+            {
+                leftCheck = true;
+                rightCheck = false;
+            }
+
+            if (Input.GetKeyUp(KeyCode.Z))   //Use GetKeyUp here! 
+            {
+
+                if (rightCheck == true)
+                {
+                    ShootPosition = transform.position + new Vector3(1f, 0, 0);
+
+                    Instantiate(_bulletS2R, ShootPosition, Quaternion.identity);
+                }
+
+                if (leftCheck == true)
+                {
+                    ShootPosition = transform.position + new Vector3(-1f, 0, 0);
+
+                    Instantiate(_bulletS2L, ShootPosition, Quaternion.identity);
+                }
             }
         }
     }

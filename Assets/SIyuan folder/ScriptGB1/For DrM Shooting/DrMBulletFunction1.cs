@@ -1,9 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class DrMBulletFunction1 : MonoBehaviour
+namespace S1
 {
+    public class DrMBulletFunction1 : MonoBehaviour
+    {
     void Start()
     {
         Physics.IgnoreLayerCollision(6, 6);  //Ignore the collision that happened on layer 6 , use TAG-Layer on these bullet prefebs. 
@@ -16,11 +17,12 @@ public class DrMBulletFunction1 : MonoBehaviour
             Destroy(collision.gameObject);
             Destroy(gameObject); //destroy this gameobject itself
         }
-           else
-           {
+        else
+        {
             Destroy(gameObject);
-           }
-       
+        }
+
     }
 
+    }
 }
