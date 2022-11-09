@@ -4,17 +4,20 @@ using UnityEngine;
 
 public class EnemyChase : MonoBehaviour
 {
-    public Transform player;
-    public float speed;
+    public GameObject player; 
+    public float speed; 
+    private float distance; 
+   
 
 
     // Update is called once per frame
     void Update()
     {
-
-        Vector3 pos = new Vector3(player.position.x, transform.position.y, transform.position.z);
-
-        transform.position = Vector3.MoveTowards(this.transform.position, pos, speed * Time.deltaTime);
-
+        distance = Vector2.Distance(transform.position, player.transform.position);
+        Vector2 direction = player.transform.position - transform.position; 
+        Vector3 newPos = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime); 
+        newPos.y = -4.2f;
+        transform.position = newPos;
+        
     }
 }
