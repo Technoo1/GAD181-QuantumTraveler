@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+namespace TG
+{
 
 public class LoopingBackground : MonoBehaviour
 {
@@ -17,3 +19,6 @@ public class LoopingBackground : MonoBehaviour
         backgroundRenderer.material.mainTextureOffset += new Vector2(backgroundSpeed * Time.deltaTime, 0f);
     }
 }
+
+}
+

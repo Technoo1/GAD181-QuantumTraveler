@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+namespace TG
+{
 
 public class Weapon : MonoBehaviour
 {
@@ -20,4 +22,5 @@ public class Weapon : MonoBehaviour
         //shooting logic
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
    }
+}
 }

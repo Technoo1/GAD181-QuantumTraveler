@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+namespace TG
+{
 
 public class Obstacle : MonoBehaviour
 {
@@ -39,3 +41,7 @@ public class Obstacle : MonoBehaviour
     }    
     
 }
+
+}
+
+

@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+namespace TG
+{
 
 public class Player : MonoBehaviour
 {
@@ -33,3 +35,6 @@ public class Player : MonoBehaviour
      
     }
 }
+
+}
+

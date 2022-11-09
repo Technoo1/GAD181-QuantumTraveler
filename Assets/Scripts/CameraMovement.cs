@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+namespace TG
+{
 
 public class CameraMovement : MonoBehaviour
 {
@@ -12,3 +14,7 @@ public class CameraMovement : MonoBehaviour
         transform.position += new Vector3(cameraSpeed * Time.deltaTime, 0, 0);
     }
 }
+
+}
+
+

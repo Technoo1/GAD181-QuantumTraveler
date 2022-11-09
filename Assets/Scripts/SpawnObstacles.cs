@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+namespace TG
+{
 
 public class SpawnObstacles : MonoBehaviour
 {
@@ -32,3 +34,6 @@ public class SpawnObstacles : MonoBehaviour
 
     }
 }
+
+}
+
