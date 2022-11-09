@@ -1,46 +1,49 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Health : MonoBehaviour
+namespace FT
 {
-    [SerializeField] private float startingHealth;
-    [SerializeField] public float currentHealth {get; private set;} 
-    //private Animator anim; 
-
-    private void Awake()
+    public class Health : MonoBehaviour
     {
-        currentHealth = startingHealth;
-        //anim = GetComponent<Animator>();
-    }
+        [SerializeField] private float startingHealth;
+        [SerializeField] public float currentHealth { get; private set; }
+        private Animator anim; 
 
-
-    public void TakeDamage(int damage)
-    {
-        currentHealth -= damage;
-        if (currentHealth > 0) 
+        private void Awake()
         {
-            //anim.SetTrigger("hurt");   these will trigger the animations 
+            currentHealth = startingHealth;
+            anim = GetComponent<Animator>();
         }
 
-        else 
+
+        public void TakeDamage(int damage)
         {
-            //anim.SetTrigger("die");
+            currentHealth -= damage;
+            if (currentHealth > 0)
+            {
+                anim.SetBool("TakesDamage", true);   //these will trigger the animations 
+            }
+
+            else
+            {
+                //anim.SetTrigger("die");
+            }
         }
+
+
+
+
+
+
+        //uncomment to test if the health bar is correctly recording current health 
+
+       private void Update()
+       {
+           if (Input.GetKeyDown(KeyCode.E))
+           TakeDamage(1);
+       }
+
+
     }
-
-
-
-
-
-
-     /*uncomment to test if the health bar is correctly recording current health 
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.E))
-        TakeDamage(1);
-    }*/
-     
-
 }
+

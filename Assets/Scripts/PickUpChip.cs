@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+namespace FT 
+{
 public class PickUpChip : MonoBehaviour
 {
 
@@ -22,4 +23,6 @@ public class PickUpChip : MonoBehaviour
 
 
     }
+}
+
 }
