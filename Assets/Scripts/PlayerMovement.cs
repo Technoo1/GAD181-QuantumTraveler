@@ -12,10 +12,11 @@ namespace FT
         public bool isGrounded;
         public Animator anim;
 
+        [SerializeField] private AudioClip jumpSound;
+
         void Start()
         {
             DrSpeed = 15f;
-            //mpHeight = 5f;
             anim = GetComponent<Animator>();
         }
         private void OnCollisionStay()
@@ -25,14 +26,9 @@ namespace FT
         }
         void Update()
         {
-            //if (!isGrounded)
-            //{
-
-            //}
-            //else
-            //{
             anim.SetBool("Walk", false);
 
+            //Moving left and right.
             if (Input.GetKey(KeyCode.D))
             {
                 transform.Translate(Vector3.right * Time.deltaTime * DrSpeed);
@@ -46,15 +42,14 @@ namespace FT
                 anim.SetBool("Walk", true);
                 this.transform.localRotation = Quaternion.Euler(0, 180, 0);
             }
-            //Moving left and right.
 
+            //Simple jump with ground check.
             if (isGrounded && Input.GetKeyDown(KeyCode.Space))
             {
+                SoundManager.instance.PlaySound(jumpSound);
                 DrM.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-
             }
-            //Simple jump with ground check.
-            //
+             
         }
         private void OnCollisionExit()
         {
@@ -62,5 +57,4 @@ namespace FT
             anim.SetBool("IsGrounded", false);
         }
     }
-
 }
