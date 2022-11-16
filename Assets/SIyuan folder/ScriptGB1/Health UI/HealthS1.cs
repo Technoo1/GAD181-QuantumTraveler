@@ -8,6 +8,7 @@ namespace S1
         [SerializeField] private float startingHealth;
         public float currentHealth { get; private set; }
         private Animator anim;
+        public DrMTakeDamage hitCheck;
 
         private void Awake()
         {
@@ -29,15 +30,21 @@ namespace S1
                 //anim.SetTrigger("die");
             }
         }
-
-
-
         //uncomment to test if the health bar is correctly recording current health 
 
-        private void Update()
+        public void Update()
         {
+            if (hitCheck.hit == 1)
+            {
+              TakeDamage(1);
+              hitCheck.hit = 0;
+            }   
+            
+
             if (Input.GetKeyDown(KeyCode.E))
-                TakeDamage(1);
+            {
+              TakeDamage(1);
+            }
         }
 
     }

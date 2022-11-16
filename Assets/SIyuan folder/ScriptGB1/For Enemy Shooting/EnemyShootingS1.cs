@@ -43,14 +43,14 @@ namespace S1
         {
             if (fireCheckS1 <= fireRate && EnemyleftCheck == true)
             {
-                ShootPosition = transform.position + new Vector3(-1.1f, 0, 0);
+                ShootPosition = transform.position + new Vector3(-1.1f, -0.05f, 0);
 
                 Instantiate(_bulletS1L, ShootPosition, Quaternion.identity);
             }
 
             if (fireCheckS1 <= fireRate && EnemyrightCheck == true)
             {
-                ShootPosition = transform.position + new Vector3(1.1f, 0, 0);
+                ShootPosition = transform.position + new Vector3(1.1f, -0.05f, 0);
 
                 Instantiate(_bulletS1R, ShootPosition, Quaternion.identity);
             }

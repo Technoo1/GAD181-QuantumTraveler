@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/SIyuan folder/SoldierBoy.unity
+    guid: 97072f01148e1734f8c8de28bfec8f90
   m_configObjects: {}

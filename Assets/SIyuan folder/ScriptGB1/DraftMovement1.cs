@@ -37,7 +37,7 @@ namespace S1
             }
             //Moving left and right.
 
-            if (isGrounded && Input.GetKeyDown(KeyCode.UpArrow))
+            if (isGrounded && Input.GetKeyDown(KeyCode.X))
             {
                 DrM.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             }
