@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 749cff5fb788dee4fbdec82cea6d1480
+guid: 3d55ea70d85de27409f06c112dab9074
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SpecialOpsWalkingSpritesheet_0
+      name: SoldierBoyIdleSpritesheet_0
       rect:
         serializedVersion: 2
-        x: 398
-        y: 3547
-        width: 854
-        height: 1204
+        x: 98
+        y: 3647
+        width: 903
+        height: 1255
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f0e8ee772977444c8db7504d41a71dd
-      internalID: -44847423
+      spriteID: 5645ccba7881f464cafe1bc65469c896
+      internalID: 1624664351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpecialOpsWalkingSpritesheet_1
+      name: SoldierBoyIdleSpritesheet_1
       rect:
         serializedVersion: 2
-        x: 1299
-        y: 3547
-        width: 852
-        height: 1204
+        x: 1047
+        y: 3647
+        width: 906
+        height: 1255
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dfb4776523436e418a9a9d7d53679ed
-      internalID: 803125755
+      spriteID: f26ac281f2f8dd54b9e61b66298d8d64
+      internalID: -1737298167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpecialOpsWalkingSpritesheet_2
+      name: SoldierBoyIdleSpritesheet_2
       rect:
         serializedVersion: 2
-        x: 2191
-        y: 3553
-        width: 855
-        height: 1204
+        x: 2000
+        y: 3647
+        width: 903
+        height: 1255
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f97d16a6b8ef2f4cbddc23ff00a5113
-      internalID: 172251327
+      spriteID: 0a0544ba4f3dff84fa6ac72c9be66709
+      internalID: -938140586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpecialOpsWalkingSpritesheet_3
+      name: SoldierBoyIdleSpritesheet_3
       rect:
         serializedVersion: 2
-        x: 3098
-        y: 3547
-        width: 855
-        height: 1204
+        x: 2949
+        y: 3647
+        width: 904
+        height: 1255
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,8 +193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc8fd7038eba48149964bf3e6508370f
-      internalID: -806256305
+      spriteID: ba97d671a9c17f84cba1668d8d2fb83f
+      internalID: -1880088847
       vertices: []
       indices: 
       edges: []
@@ -202,7 +202,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 572da0c192daa4b4891eb5eef1de7ca4
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +210,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SpecialOpsWalkingSpritesheet_1: 803125755
-      SpecialOpsWalkingSpritesheet_0: -44847423
-      SpecialOpsWalkingSpritesheet_3: -806256305
-      SpecialOpsWalkingSpritesheet_2: 172251327
+      SoldierBoyIdleSpritesheet_0: 1624664351
+      SoldierBoyIdleSpritesheet_2: -938140586
+      SoldierBoyIdleSpritesheet_1: -1737298167
+      SoldierBoyIdleSpritesheet_3: -1880088847
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

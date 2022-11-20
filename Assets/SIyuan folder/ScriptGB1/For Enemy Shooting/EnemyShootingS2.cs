@@ -14,6 +14,7 @@ namespace S1
         public int fireRate = 8; //Set as default difficulty level 1.
         Vector3 ShootPosition; //Set a Vector3 position for shooting distance
         public InnerTimerDraft1 checkT1; //Call from the Timer script.
+        public AudioSource EnemyShoot;
 
         public void Update()
         {
@@ -46,6 +47,8 @@ namespace S1
                 ShootPosition = transform.position + new Vector3(-1.1f, 0, 0);
 
                 Instantiate(_bulletS1L, ShootPosition, Quaternion.identity);
+
+                EnemyShoot.Play();
             }
 
             if (fireCheckS2 <= fireRate && EnemyrightCheck == true)
@@ -53,6 +56,8 @@ namespace S1
                 ShootPosition = transform.position + new Vector3(1.1f, 0, 0);
 
                 Instantiate(_bulletS1R, ShootPosition, Quaternion.identity);
+
+                EnemyShoot.Play();
             }
         }
     }

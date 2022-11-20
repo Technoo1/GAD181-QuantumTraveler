@@ -10,6 +10,7 @@ namespace S1
         public float jumpForce = 6.8f;
         public bool isGrounded;
         public Animator anim;
+        public AudioSource DrMJump;
         void Start()
         {
             DrSpeed = 3.0f;
@@ -40,6 +41,7 @@ namespace S1
             if (isGrounded && Input.GetKeyDown(KeyCode.X))
             {
                 DrM.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+                DrMJump.Play();
             }
             //Simple jump with ground check.
         }

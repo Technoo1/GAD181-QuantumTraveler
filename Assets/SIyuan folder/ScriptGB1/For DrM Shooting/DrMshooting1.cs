@@ -10,6 +10,7 @@ namespace S1
         bool leftCheck = false;
         bool rightCheck = true;
         Vector3 ShootPosition; //Set a Vector3 position for shooting distance
+        public AudioSource DrmShoot;
 
         void Update()
         {
@@ -33,6 +34,8 @@ namespace S1
                     ShootPosition = transform.position + new Vector3(1f, 0, 0);
 
                     Instantiate(_bulletS2R, ShootPosition, Quaternion.identity);
+
+                    DrmShoot.Play();
                 }
 
                 if (leftCheck == true)
@@ -40,6 +43,8 @@ namespace S1
                     ShootPosition = transform.position + new Vector3(-1f, 0, 0);
 
                     Instantiate(_bulletS2L, ShootPosition, Quaternion.identity);
+
+                    DrmShoot.Play();
                 }
             }
         }

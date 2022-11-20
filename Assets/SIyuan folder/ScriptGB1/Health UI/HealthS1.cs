@@ -9,6 +9,7 @@ namespace S1
         public float currentHealth { get; private set; }
         private Animator anim;
         public DrMTakeDamage hitCheck;
+        public AudioSource DrMDamage;
 
         private void Awake()
         {
@@ -37,6 +38,7 @@ namespace S1
             if (hitCheck.hit == 1)
             {
               TakeDamage(1);
+              DrMDamage.Play();
               hitCheck.hit = 0;
             }   
             

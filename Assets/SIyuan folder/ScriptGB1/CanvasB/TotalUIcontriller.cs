@@ -15,7 +15,8 @@ namespace S1
     public GameObject FlashBack;
     public GameObject Nope;
     public GameObject QPiece;
-    public bool ResetScene;  
+    public bool ResetScene;
+    public GameObject PlayerS1;
 
     public void start()
     {
@@ -32,6 +33,7 @@ namespace S1
                 Nope.SetActive(false);
                 QPiece.SetActive(false);
                 CanvasCheckB = true;
+                Destroy(PlayerS1);
             }
             if (Input.GetKey(KeyCode.RightArrow) && CanvasCheckB == true)
             {
