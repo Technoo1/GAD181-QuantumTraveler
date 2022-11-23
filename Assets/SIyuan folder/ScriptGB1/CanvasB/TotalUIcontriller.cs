@@ -53,9 +53,14 @@ namespace S1
                 CanvasC.SetActive(true);
             }
 
-            if (ResetScene == true && Input.GetKeyDown(KeyCode.Z))
+            if (ResetScene == true && Input.GetKeyDown(KeyCode.Z) && CanvasCheckB == true)
             {
                 SceneManager.LoadScene("SoldierBoy");
+            }
+
+             if (ResetScene == false && Input.GetKeyDown(KeyCode.Z) && CanvasCheckB == true)
+            {
+                SceneManager.LoadScene("TestMainMenu");
             }
         }
     }
