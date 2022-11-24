@@ -5,17 +5,23 @@ namespace FT
 {
     public class EnemyChase : MonoBehaviour
     {
+        private Rigidbody2D rb;
         public Transform player;
         public float speed;
         public Health checkLife;
+
+        void Start()
+        {
+            rb = GetComponent<Rigidbody2D>();
+        }
 
         void Update()
         {
             if (checkLife.currentHealth > 0)
             {
-                Vector3 pos = new Vector3(player.position.x, transform.position.y, transform.position.z);
+                Vector2 pos = new Vector2(player.position.x, rb.velocity.y);
 
-                transform.position = Vector3.MoveTowards(this.transform.position, pos, speed * Time.deltaTime);
+                rb.velocity = Vector2.MoveTowards(this.transform.position, pos, speed * Time.deltaTime);
             }
             else
             {
