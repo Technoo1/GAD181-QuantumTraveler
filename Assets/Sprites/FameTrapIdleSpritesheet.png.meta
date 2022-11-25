@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ddb921823919c254da69f9cdbe32aaf1
+guid: 45d6d898e7a5d6543a38d2052f64ac04
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -100,14 +100,26 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DrMichael_IdleSpritesheet_0
+      name: FameTrapIdleSpritesheet_0
       rect:
         serializedVersion: 2
-        x: 348
+        x: 148
         y: 3597
         width: 806
         height: 1255
@@ -118,19 +130,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32697dcc7144ffd438dc17277e55cb33
-      internalID: 1029186832
+      spriteID: b86d90373a2bda74e87c6a8abe003055
+      internalID: 1157500129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DrMichael_IdleSpritesheet_1
+      name: FameTrapIdleSpritesheet_1
       rect:
         serializedVersion: 2
-        x: 1198
-        y: 3597
-        width: 805
+        x: 1046
+        y: 3604
+        width: 806
         height: 1255
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -139,17 +151,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18d5d5fcab1e9cb439ab2743ed4f5074
-      internalID: -1251139162
+      spriteID: 2b06739e3ebd4d94788fd39bfed1e572
+      internalID: 2031187013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DrMichael_IdleSpritesheet_2
+      name: FameTrapIdleSpritesheet_2
       rect:
         serializedVersion: 2
-        x: 2047
+        x: 1947
         y: 3597
         width: 806
         height: 1255
@@ -160,19 +172,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab1a190ba20c0d8449115da32f0c175e
-      internalID: 781864206
+      spriteID: 0c20b26449e056147a5ddfe7affda733
+      internalID: -594322947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DrMichael_IdleSpritesheet_3
+      name: FameTrapIdleSpritesheet_3
       rect:
         serializedVersion: 2
-        x: 2897
+        x: 2848
         y: 3597
-        width: 805
+        width: 806
         height: 1255
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -181,8 +193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c41dd3d8437b73c469753c7b2bee7928
-      internalID: 543017588
+      spriteID: 4d462faa5c90bde458cf43494154c2c1
+      internalID: -1738332292
       vertices: []
       indices: 
       edges: []
@@ -190,7 +202,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e4ace1146e901f746b2008130e071adf
+    spriteID: a7aa329899792d3438dab876a8dd5eea
     internalID: 0
     vertices: []
     indices: 
@@ -198,10 +210,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DrMichael_IdleSpritesheet_2: 781864206
-      DrMichael_IdleSpritesheet_3: 543017588
-      DrMichael_IdleSpritesheet_1: -1251139162
-      DrMichael_IdleSpritesheet_0: 1029186832
+      FameTrapIdleSpritesheet_3: -1738332292
+      FameTrapIdleSpritesheet_2: -594322947
+      FameTrapIdleSpritesheet_1: 2031187013
+      FameTrapIdleSpritesheet_0: 1157500129
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -16,7 +16,7 @@ namespace FT
         private enum MovementState { idle, running, jumping, falling }
 
         [SerializeField] private AudioSource jumpSound;
-        //[SerializeField] private AudioSource walkSound;
+        [SerializeField] private AudioSource walkSound;
 
         //start
         void Start()
@@ -37,6 +37,19 @@ namespace FT
                 jumpSound.Play();
                 rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             }
+            else if (rb.velocity.x != 0f)
+            {
+                if (!walkSound.isPlaying)
+                {
+                    walkSound.Play();
+                }
+            }
+            
+            else
+            {
+                walkSound.Stop();
+            }
+
 
             UpdateAnimationState();
         }

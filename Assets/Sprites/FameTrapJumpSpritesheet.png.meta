@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 81352576789d304489c4b94cb355b64d
+guid: 7fbd5179be466194f86e6bdb8ed1e610
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -100,17 +100,29 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DrMichael_JumpSpritesheet_0
+      name: FameTrapJumpSpritesheet_0
       rect:
         serializedVersion: 2
-        x: 96
-        y: 3097
+        x: 148
+        y: 3597
         width: 806
-        height: 1255
+        height: 1357
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5268911a75d588b4e96f290c8c652d7f
-      internalID: -706085272
+      spriteID: c00206a4ec9234a4ba23e18bedec2890
+      internalID: 1562381011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DrMichael_JumpSpritesheet_1
+      name: FameTrapJumpSpritesheet_1
       rect:
         serializedVersion: 2
-        x: 946
-        y: 3097
+        x: 1046
+        y: 3597
         width: 806
-        height: 1155
+        height: 1357
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7c6df53788707f499eaaffbe518673e
-      internalID: 2023361622
+      spriteID: d874c94447715c949b78deae3c84db4b
+      internalID: 337945539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DrMichael_JumpSpritesheet_2
+      name: FameTrapJumpSpritesheet_2
       rect:
         serializedVersion: 2
-        x: 1847
-        y: 3646
-        width: 705
-        height: 1258
+        x: 1947
+        y: 3597
+        width: 806
+        height: 1357
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 881678dfa56513e4a8b0f0e9a0e91b3e
-      internalID: 563207818
+      spriteID: 7ae37e49e65b0b142baf4e838b254ed5
+      internalID: 2019007615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DrMichael_JumpSpritesheet_3
+      name: FameTrapJumpSpritesheet_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 1547
-        width: 757
-        height: 1306
+        x: 148
+        y: 2096
+        width: 806
+        height: 1357
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1cb43454aef333438960a274ccf70f5
-      internalID: -1759697044
+      spriteID: b58cd6624e93bcb4db8b96a069425763
+      internalID: -379082228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DrMichael_JumpSpritesheet_4
+      name: FameTrapJumpSpritesheet_4
       rect:
         serializedVersion: 2
-        x: 946
-        y: 1246
-        width: 757
-        height: 1358
+        x: 1046
+        y: 2096
+        width: 806
+        height: 1357
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e67b5043963b034aa1d8533920bed8e
-      internalID: -933350416
+      spriteID: 9c2c87ed0fef3754893e8e9998d6df00
+      internalID: 1035017164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DrMichael_JumpSpritesheet_5
+      name: FameTrapJumpSpritesheet_5
       rect:
         serializedVersion: 2
-        x: 1796
-        y: 1146
-        width: 808
-        height: 1157
+        x: 1947
+        y: 2096
+        width: 806
+        height: 1357
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,8 +235,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52238c941557393429937dfb7cce99c8
-      internalID: 1472149437
+      spriteID: 8cb7996f3aaf8a24c90f3ca6f9bb90d7
+      internalID: -635681560
       vertices: []
       indices: 
       edges: []
@@ -232,7 +244,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 1908f4c8894029249bb40c3c2daf1d54
+    spriteID: 9c7448222cc3aef46be0c9c1714db053
     internalID: 0
     vertices: []
     indices: 
@@ -240,12 +252,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DrMichael_JumpSpritesheet_3: -1759697044
-      DrMichael_JumpSpritesheet_5: 1472149437
-      DrMichael_JumpSpritesheet_0: -706085272
-      DrMichael_JumpSpritesheet_2: 563207818
-      DrMichael_JumpSpritesheet_1: 2023361622
-      DrMichael_JumpSpritesheet_4: -933350416
+      FameTrapJumpSpritesheet_3: -379082228
+      FameTrapJumpSpritesheet_4: 1035017164
+      FameTrapJumpSpritesheet_1: 337945539
+      FameTrapJumpSpritesheet_2: 2019007615
+      FameTrapJumpSpritesheet_0: 1562381011
+      FameTrapJumpSpritesheet_5: -635681560
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

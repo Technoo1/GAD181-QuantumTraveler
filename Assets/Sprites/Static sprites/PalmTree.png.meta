@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 29e8c3ed66e3b62468f140f3c4c6501a
+guid: 9e0e5a3d5c3838e4d9839feea1eba104
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,7 +101,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DrMichaelTakeDamage_0
+      name: PalmTree_0
       rect:
         serializedVersion: 2
-        x: 48
-        y: 3698
-        width: 805
-        height: 1254
+        x: 248
+        y: 2997
+        width: 1504
+        height: 1755
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,92 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5162b13169dadef4792dc6744b410f9b
-      internalID: 2063861864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DrMichaelTakeDamage_1
-      rect:
-        serializedVersion: 2
-        x: 946
-        y: 3698
-        width: 806
-        height: 1254
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b88932a74e224d64095451686fe9e804
-      internalID: -1665307387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DrMichaelTakeDamage_2
-      rect:
-        serializedVersion: 2
-        x: 1847
-        y: 3698
-        width: 806
-        height: 1254
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ebc21c5a4afdb044a16b0901ce402b7
-      internalID: 1684085800
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DrMichaelTakeDamage_3
-      rect:
-        serializedVersion: 2
-        x: 2748
-        y: 3698
-        width: 805
-        height: 1254
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc837aa2f70a1dd429719883b877f3ab
-      internalID: -675670579
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DrMichaelTakeDamage_4
-      rect:
-        serializedVersion: 2
-        x: 3646
-        y: 3698
-        width: 808
-        height: 1254
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d296528d9efb9a54eb5ec6ba9bd87fee
-      internalID: -1088965569
+      spriteID: 2e06840edf24fbc41a64ac8111298778
+      internalID: 1169830051
       vertices: []
       indices: 
       edges: []
@@ -223,7 +139,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 7c39161ccf371c547964c09c45f5186b
+    spriteID: 997e2319df88f0e4c9e648d42a195802
     internalID: 0
     vertices: []
     indices: 
@@ -231,11 +147,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DrMichaelTakeDamage_2: 1684085800
-      DrMichaelTakeDamage_0: 2063861864
-      DrMichaelTakeDamage_1: -1665307387
-      DrMichaelTakeDamage_3: -675670579
-      DrMichaelTakeDamage_4: -1088965569
+      PalmTree_0: 1169830051
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
