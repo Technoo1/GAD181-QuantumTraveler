@@ -1,0 +1,335 @@
+fileFormatVersion: 2
+guid: 28054077c108e894393c987dadeb9216
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StandardSoldierDeathSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 3699
+        width: 852
+        height: 1203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f1e171d1e61e749915979dfd3b60c9
+      internalID: -666166731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StandardSoldierDeathSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 3699
+        width: 852
+        height: 1203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a324e4b8cab3d264d937330eedd649f8
+      internalID: 1271096001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StandardSoldierDeathSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 3699
+        width: 852
+        height: 1203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30098338342c484468f913035d57fb7d
+      internalID: -1053913537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StandardSoldierDeathSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 2798
+        y: 3699
+        width: 852
+        height: 1203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab936be1ac3311145a2c993140333d01
+      internalID: -1806827939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StandardSoldierDeathSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 3699
+        y: 3699
+        width: 852
+        height: 1203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517b4b04d94a8434886240b2bb41f9c9
+      internalID: 87925439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StandardSoldierDeathSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2440
+        width: 852
+        height: 1203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0973a854e55a30459fd095e9dab94d2
+      internalID: -224267408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StandardSoldierDeathSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 2449
+        width: 852
+        height: 1203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566dab5733cc69d4b8c7069dba990216
+      internalID: 1448579398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StandardSoldierDeathSpritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 3705
+        y: 2461
+        width: 852
+        height: 1203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfd076e383b3284f97ff5ce2c3df38a
+      internalID: -1238013269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8efebbb99bb924f4cb9d38bb3eb8b760
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      StandardSoldierDeathSpritesheet_8: -1541030500
+      StandardSoldierDeathSpritesheet_10: -451231266
+      StandardSoldierDeathSpritesheet_29: 170769854
+      StandardSoldierDeathSpritesheet_6: 243101790
+      StandardSoldierDeathSpritesheet_17: 7386847
+      StandardSoldierDeathSpritesheet_13: -799429046
+      StandardSoldierDeathSpritesheet_12: 1021999493
+      StandardSoldierDeathSpritesheet_31: -1770687581
+      StandardSoldierDeathSpritesheet_28: 478474242
+      StandardSoldierDeathSpritesheet_7: -635296092
+      StandardSoldierDeathSpritesheet_18: 189688241
+      StandardSoldierDeathSpritesheet_14: -2031773051
+      StandardSoldierDeathSpritesheet_25: 655513305
+      StandardSoldierDeathSpritesheet_32: 2026285770
+      StandardSoldierDeathSpritesheet_16: 699327504
+      StandardSoldierDeathSpritesheet_20: -1906150769
+      StandardSoldierDeathSpritesheet_22: -1918451792
+      StandardSoldierDeathSpritesheet_9: -1604225338
+      StandardSoldierDeathSpritesheet_15: -224267408
+      StandardSoldierDeathSpritesheet_19: 1935882887
+      StandardSoldierDeathSpritesheet_30: 311753240
+      StandardSoldierDeathSpritesheet_21: 1448579398
+      StandardSoldierDeathSpritesheet_24: -1936502085
+      StandardSoldierDeathSpritesheet_5: -482976870
+      StandardSoldierDeathSpritesheet_0: -666166731
+      StandardSoldierDeathSpritesheet_23: 366302216
+      StandardSoldierDeathSpritesheet_26: -1238013269
+      StandardSoldierDeathSpritesheet_27: 1965904246
+      StandardSoldierDeathSpritesheet_11: -1366643441
+      StandardSoldierDeathSpritesheet_3: -1806827939
+      StandardSoldierDeathSpritesheet_4: 87925439
+      StandardSoldierDeathSpritesheet_1: 1271096001
+      StandardSoldierDeathSpritesheet_2: -1053913537
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

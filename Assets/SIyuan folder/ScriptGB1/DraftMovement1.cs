@@ -10,6 +10,7 @@ namespace S1
         public float jumpForce = 6.8f;
         public bool isGrounded;
         public Animator anim;
+        public Animator anim2;
         public AudioSource DrMJump;
         void Start()
         {
@@ -44,6 +45,7 @@ namespace S1
                 DrMJump.Play();
             }
             //Simple jump with ground check.
+
         }
         private void OnCollisionExit()
         {

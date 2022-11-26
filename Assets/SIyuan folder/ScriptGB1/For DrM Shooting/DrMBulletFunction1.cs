@@ -14,7 +14,7 @@ namespace S1
     {
         if (collision.gameObject.tag == "Enemy") //check with tag
         {
-            Destroy(collision.gameObject);
+            //Destroy(collision.gameObject);
             Destroy(gameObject); //destroy this gameobject itself
         }
         else

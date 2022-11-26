@@ -8,6 +8,7 @@ TagManager:
   - EnemyBullet
   - Enemy
   - QPiece
+  - PlayerBullet
   layers:
   - Default
   - TransparentFX

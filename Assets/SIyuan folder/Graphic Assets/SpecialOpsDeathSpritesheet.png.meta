@@ -1,0 +1,335 @@
+fileFormatVersion: 2
+guid: d3ba5011ce72cde4cae0747a8fcacc06
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpecialOpsDeathSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 3699
+        width: 854
+        height: 1203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a0fc9cda9033347869dd66e248d211
+      internalID: -248266459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialOpsDeathSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 3699
+        width: 852
+        height: 1203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90a5d0f78ee2f745899ee143c17d421
+      internalID: 357509444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialOpsDeathSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 3699
+        width: 852
+        height: 1203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba38c86dcf1d494cbb0aec258aa4395
+      internalID: 205713943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialOpsDeathSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 2798
+        y: 3699
+        width: 854
+        height: 1203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b80bf29ca44cec46b52f477a2bb8807
+      internalID: -253189678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialOpsDeathSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 3699
+        width: 852
+        height: 1203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cff87b69696df468ccfc2f3b23ab6d
+      internalID: -1295671530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialOpsDeathSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2449
+        width: 852
+        height: 1203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd73a5654a6dc5848802ca4e884e5290
+      internalID: 1356472424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialOpsDeathSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 2449
+        width: 852
+        height: 1203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b0174154b2c624ca266d802874ef81
+      internalID: 1588182336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialOpsDeathSpritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 3724
+        y: 2437
+        width: 852
+        height: 1198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79aa677c24661e04495ae509ebf14350
+      internalID: 1946127987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a40667a5c62ed9a45af61ab0854cb312
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SpecialOpsDeathSpritesheet_25: 1946127987
+      SpecialOpsDeathSpritesheet_13: -1090966189
+      SpecialOpsDeathSpritesheet_23: 581940206
+      SpecialOpsDeathSpritesheet_8: -1307887020
+      SpecialOpsDeathSpritesheet_21: 1588182336
+      SpecialOpsDeathSpritesheet_28: 1745135357
+      SpecialOpsDeathSpritesheet_24: -1460016365
+      SpecialOpsDeathSpritesheet_2: 205713943
+      SpecialOpsDeathSpritesheet_27: 245323427
+      SpecialOpsDeathSpritesheet_15: 1356472424
+      SpecialOpsDeathSpritesheet_22: -1663868904
+      SpecialOpsDeathSpritesheet_18: -1383698580
+      SpecialOpsDeathSpritesheet_4: -1295671530
+      SpecialOpsDeathSpritesheet_32: -117606856
+      SpecialOpsDeathSpritesheet_19: 1916735066
+      SpecialOpsDeathSpritesheet_12: -1994880297
+      SpecialOpsDeathSpritesheet_6: 426802473
+      SpecialOpsDeathSpritesheet_31: 937154027
+      SpecialOpsDeathSpritesheet_16: -1338267890
+      SpecialOpsDeathSpritesheet_3: -253189678
+      SpecialOpsDeathSpritesheet_9: 303681764
+      SpecialOpsDeathSpritesheet_7: 1590356821
+      SpecialOpsDeathSpritesheet_29: 1705345396
+      SpecialOpsDeathSpritesheet_1: 357509444
+      SpecialOpsDeathSpritesheet_5: -1246872226
+      SpecialOpsDeathSpritesheet_0: -248266459
+      SpecialOpsDeathSpritesheet_11: -721621846
+      SpecialOpsDeathSpritesheet_20: -659256896
+      SpecialOpsDeathSpritesheet_30: 1210045488
+      SpecialOpsDeathSpritesheet_17: -155876623
+      SpecialOpsDeathSpritesheet_26: 588085674
+      SpecialOpsDeathSpritesheet_10: -1193035943
+      SpecialOpsDeathSpritesheet_14: 725324648
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

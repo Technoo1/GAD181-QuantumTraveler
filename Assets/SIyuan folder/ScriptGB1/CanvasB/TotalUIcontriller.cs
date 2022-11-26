@@ -33,6 +33,8 @@ namespace S1
                 Nope.SetActive(false);
                 QPiece.SetActive(false);
                 CanvasCheckB = true;
+                Time.timeScale = 0f;
+
                 Destroy(PlayerS1);
             }
             if (Input.GetKey(KeyCode.RightArrow) && CanvasCheckB == true)
@@ -50,16 +52,19 @@ namespace S1
 
             if (GetQPiece.teleport == true)
             {
-                CanvasC.SetActive(true);
+               Time.timeScale = 1f;
+               SceneManager.LoadScene("TransitionANI2");
             }
 
             if (ResetScene == true && Input.GetKeyDown(KeyCode.Z) && CanvasCheckB == true)
             {
+                Time.timeScale = 1f;
                 SceneManager.LoadScene("SoldierBoy");
             }
 
              if (ResetScene == false && Input.GetKeyDown(KeyCode.Z) && CanvasCheckB == true)
             {
+                Time.timeScale = 1f;
                 SceneManager.LoadScene("TestMainMenu");
             }
         }
