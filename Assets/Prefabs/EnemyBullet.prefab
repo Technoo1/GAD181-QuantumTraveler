@@ -12,10 +12,11 @@ GameObject:
   - component: {fileID: 4264485785603929129}
   - component: {fileID: 4264485785603929130}
   - component: {fileID: 4264485785603929131}
-  - component: {fileID: -2065128139940180857}
+  - component: {fileID: 3101931310201574961}
+  - component: {fileID: 4415844541129678397}
   m_Layer: 0
-  m_Name: Bullet
-  m_TagString: Untagged
+  m_Name: EnemyBullet
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -134,7 +135,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 11.63, y: 2.5}
   m_EdgeRadius: 0
---- !u!114 &-2065128139940180857
+--- !u!114 &3101931310201574961
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,10 +144,37 @@ MonoBehaviour:
   m_GameObject: {fileID: 4264485785603929140}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 896df24d554490b45920f77e2bc0eab9, type: 3}
+  m_Script: {fileID: 11500000, guid: a5a452742374ddc419465181f66ac670, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 40
-  damage: 40
+  speed: 20
+  damage: 20
   rb: {fileID: 4264485785603929130}
   impactEffect: {fileID: 623445183843522548, guid: d20d9ec9a6f025c429a9bb5d65f1b0b7, type: 3}
+  lifePoints: {fileID: 0}
+--- !u!61 &4415844541129678397
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4264485785603929140}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 16, y: 16}
+    newSize: {x: 16, y: 16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 16, y: 16}
+  m_EdgeRadius: 0

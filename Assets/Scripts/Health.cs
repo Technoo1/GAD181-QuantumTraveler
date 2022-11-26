@@ -8,6 +8,7 @@ public class Health : MonoBehaviour
 {
     [SerializeField] private float startingHealth; 
     public float currentHealth {get; private set;} 
+    public PlayerTakeDamage hitByBullet;
     private Animator anim; 
 
     private void Awake()
@@ -23,6 +24,7 @@ public class Health : MonoBehaviour
         if (currentHealth > 0) 
         {
             //anim.SetTrigger("hurt");   these will trigger the animations 
+            
         }
 
         else 
@@ -37,6 +39,12 @@ public class Health : MonoBehaviour
 
     private void Update()
     {
+       if (hitByBullet.hitCheck == 1)
+       {
+           TakeDamage(1);
+           hitByBullet.hitCheck = 0;
+       }
+
         if (Input.GetKeyDown(KeyCode.E))
         TakeDamage(1);
     }

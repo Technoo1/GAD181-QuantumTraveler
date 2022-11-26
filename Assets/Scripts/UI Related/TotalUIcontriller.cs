@@ -14,6 +14,7 @@ namespace TG
     public GameObject CanvasC;
     public GameObject Yes;
     public GameObject No;
+    public GameObject QPiece;
     //public GameObject QPiece;
     public bool ResetScene;
     public GameObject PlayerDan;
@@ -31,9 +32,13 @@ namespace TG
                 Yes.SetActive(true);
                 ResetScene = true;
                 No.SetActive(false);
+                QPiece.SetActive(false);
                 //QPiece.SetActive(false);
                 CanvasCheckB = true;
                 Destroy(PlayerDan);
+
+                Time.timeScale = 0f;
+
             }
             if (Input.GetKey(KeyCode.RightArrow) && CanvasCheckB == true)
             {
@@ -56,6 +61,7 @@ namespace TG
 
             if (ResetScene == true && Input.GetKeyDown(KeyCode.Z) && CanvasCheckB == true)
             {
+                Time.timeScale = 1f;
                 SceneManager.LoadScene("TopGun");
             }
 
