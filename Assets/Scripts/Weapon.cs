@@ -8,6 +8,7 @@ public class Weapon : MonoBehaviour
 {
    public Transform firePoint;
    public GameObject bulletPrefab;
+   public AudioSource Fire;
 
    void Update() 
    {
@@ -20,6 +21,7 @@ public class Weapon : MonoBehaviour
    void Shoot()
    {
         //shooting logic
+        Fire.Play();
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
    }
 }

@@ -28,17 +28,11 @@ public class EnemyWeapon : MonoBehaviour
    void Shoot()
    {
         //shooting logic
+        EnemyFire.Play();
         Instantiate(EnemyBulletPrefab, firePointEnemy.position, firePointEnemy.rotation);
    }
 
-   void fixedUpdate()
-   {
 
-       if (shootSpeedTime <= 0f)
-       {
-           EnemyFire.Play();
-       }
-   }
         
 }
 }

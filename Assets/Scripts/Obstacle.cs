@@ -9,6 +9,7 @@ public class Obstacle : MonoBehaviour
     public int health = 100;
 
     public GameObject deathEffect;
+    public AudioSource EnemyExplosion;
 
     public void TakeDamage (int damage)
     {
@@ -24,6 +25,7 @@ public class Obstacle : MonoBehaviour
 
     void Die()
     {
+        EnemyExplosion.Play();
         Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(this.gameObject);
         
