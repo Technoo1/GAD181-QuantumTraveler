@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8397612463666213364}
   - component: {fileID: 8397612463666213366}
-  - component: {fileID: 8397612463666213131}
+  - component: {fileID: -6117793032277430157}
   m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8397612463666213131
+--- !u!61 &-6117793032277430157
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -98,7 +98,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -2.452683, y: -4.207175}
+  m_Offset: {x: 1.1844788, y: -4.1981983}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -109,5 +109,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 24.106087, y: 2.3856497}
+  m_Size: {x: 30.467392, y: 2.4036045}
   m_EdgeRadius: 0

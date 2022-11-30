@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace FT
 {
+
     public class Health : MonoBehaviour
     {
         [SerializeField] private float startingHealth;
         [SerializeField] public float currentHealth { get; private set; }
         private Animator anim; 
+        public PlayerTakesDamage hitCheck;
 
         private void Awake()
         {
@@ -31,19 +33,25 @@ namespace FT
         }
 
 
-
-
-
-
         //uncomment to test if the health bar is correctly recording current health 
 
-       private void Update()
+       public void Update()
        {
+            if (hitCheck.hit == 1)
+            {
+              TakeDamage(1);
+              //audio
+              hitCheck.hit = 0;
+            }
+
            if (Input.GetKeyDown(KeyCode.E))
            TakeDamage(1);
        }
 
 
     }
+
+
+
 }
 
