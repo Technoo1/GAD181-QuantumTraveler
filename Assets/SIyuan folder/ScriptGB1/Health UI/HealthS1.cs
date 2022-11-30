@@ -40,8 +40,15 @@ namespace S1
               TakeDamage(1);
               DrMDamage.Play();
               hitCheck.hit = 0;
-            }   
-            
+            }
+
+            if (hitCheck.hit == 2)
+            {
+                TakeDamage(4);
+                DrMDamage.Play();
+                hitCheck.hit = 0;
+            }
+
 
             if (Input.GetKeyDown(KeyCode.E))
             {

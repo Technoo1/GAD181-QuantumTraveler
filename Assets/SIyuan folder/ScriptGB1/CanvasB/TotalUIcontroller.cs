@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 namespace S1
 {
- public class TotalUIcontriller : MonoBehaviour
+ public class TotalUIcontroller : MonoBehaviour
  {
     [SerializeField] public HealthS1 playerLifeCheck;
     public DrMTakeDamage GetQPiece;

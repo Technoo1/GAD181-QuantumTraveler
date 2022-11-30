@@ -20,9 +20,14 @@ public class DrMTakeDamage : MonoBehaviour
         if (collision.gameObject.tag == "EnemyBullet") //check with tag
         {
             hit = 1;
-        }          
+        }   
+        
+        if (collision.gameObject.tag == "Fire") //check with tag
+        {
+            hit = 2;
+        }
 
-        else if (collision.gameObject.tag == "QPiece")
+            if (collision.gameObject.tag == "QPiece")
         {
             teleport = true;
             Destroy(collision.gameObject);

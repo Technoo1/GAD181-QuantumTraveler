@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace S1
 {
-    public class BackGroundMusicController : MonoBehaviour
+    public class Game4BackGroundMusicController : MonoBehaviour
     {
         public AudioSource BackGrounM1;
         public InnerTimerDraft1 TimeCheckSFX;
-        public TotalUIcontroller checkCanvasB;
+        public FireEscapeController checkCanvasB;
         public AudioSource phaseMenuM1;
         public bool phaseMusic;
         public AudioSource EnemyShootS1;
@@ -22,7 +22,7 @@ namespace S1
         {
             if (TimeCheckSFX.difficultyL2 == true)
             {
-                
+
             }
 
             if (checkCanvasB.CanvasCheckB == true && phaseMusic == false)
@@ -35,3 +35,4 @@ namespace S1
         }
     }
 }
+

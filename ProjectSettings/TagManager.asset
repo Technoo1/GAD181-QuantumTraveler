@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - QPiece
   - PlayerBullet
+  - Fire
   layers:
   - Default
   - TransparentFX
