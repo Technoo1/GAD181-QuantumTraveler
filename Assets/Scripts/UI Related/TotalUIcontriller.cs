@@ -8,14 +8,13 @@ namespace TG
  public class TotalUIcontriller : MonoBehaviour
  {
     [SerializeField] public Health playerLifeCheck;
-    //public DrMTakeDamage GetQPiece;
+    public PlayerTakeDamage GetQPiece;
     public bool CanvasCheckB = false;
     public GameObject CanvasB;
     public GameObject CanvasC;
     public GameObject Yes;
     public GameObject No;
     public GameObject QPiece;
-    //public GameObject QPiece;
     public bool ResetScene;
     public GameObject PlayerDan;
 
@@ -33,7 +32,6 @@ namespace TG
                 ResetScene = true;
                 No.SetActive(false);
                 QPiece.SetActive(false);
-                //QPiece.SetActive(false);
                 CanvasCheckB = true;
                 Destroy(PlayerDan);
 
@@ -53,11 +51,11 @@ namespace TG
                 No.SetActive(false);
             }
 
-            /*if (GetQPiece.teleport == true)
+            if (GetQPiece.teleport == true)
             {
                 CanvasC.SetActive(true);
             }
-            */
+            
 
             if (ResetScene == true && Input.GetKeyDown(KeyCode.Z) && CanvasCheckB == true)
             {

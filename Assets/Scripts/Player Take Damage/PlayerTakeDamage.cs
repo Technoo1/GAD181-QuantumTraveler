@@ -6,13 +6,13 @@ namespace TG
 public class PlayerTakeDamage : MonoBehaviour
 {
    public int hitCheck;
-   //public bool teleport;
+   public bool teleport;
    public AudioSource hit;
 
    public void start()
    {
        hitCheck = 0;
-       //teleport = false;
+       teleport = false;
    }
 
     public void OnCollisionEnter2D(Collision2D collision)  //method of "using collision condition to check status"
@@ -24,13 +24,13 @@ public class PlayerTakeDamage : MonoBehaviour
            
         }
 
-        /*else if (collision.gameObject.tag == "QPiece")
+        if (collision.gameObject.tag == "QPiece")
         {
             teleport = true;
             Destroy(collision.gameObject);
 
         }
-        */
+        
      }
 }
 

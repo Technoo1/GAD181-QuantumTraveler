@@ -475,7 +475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cd6352acf1776149a6b73fd24828be9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 50
   deathEffect: {fileID: 1592506236363535525, guid: 0b09a7116e38549458a9a16e29a2d863, type: 3}
   EnemyExplosion: {fileID: 731423631587401610}
 --- !u!61 &536618476462561982
@@ -519,4 +519,6 @@ MonoBehaviour:
   firePointEnemy: {fileID: 1528549100946373532}
   EnemyBulletPrefab: {fileID: 4264485785603929140, guid: 6e26df07e3619fd4ba6043ed632d412f, type: 3}
   EnemyFire: {fileID: 3339086625985782148}
-  shootSpeed: 0.7
+  shootSpeed1: 2
+  shootSpeed2: 2.8
+  shootSpeed3: 3.5

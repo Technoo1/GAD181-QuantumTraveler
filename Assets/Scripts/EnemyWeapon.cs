@@ -9,20 +9,49 @@ public class EnemyWeapon : MonoBehaviour
    public Transform firePointEnemy;
    public GameObject EnemyBulletPrefab;
    public AudioSource EnemyFire;
-   public float shootSpeed;
-   private float shootSpeedTime;
+   public float shootSpeed1 = 0.3f;
+   public float shootSpeed2 = 0.7f;
+   public float shootSpeed3 = 0.9f;
+   private int pickOne;
+   private float shootSpeedTime; //freeze time between shooting.  
+
+
 
    void Update() 
    {
-        if (shootSpeedTime <= 0f)
+        pickOne = Random.Range(0, 3);
+
+        if (shootSpeedTime <= 0f && pickOne == 0)
         {
             Shoot();
-            shootSpeedTime = shootSpeed;
+            shootSpeedTime = shootSpeed1;
         } 
         else
         {
             shootSpeedTime -= Time.deltaTime;
         }
+
+        if (shootSpeedTime <= 0f && pickOne == 1)
+        {
+            Shoot();
+            shootSpeedTime = shootSpeed2;
+        } 
+        else
+        {
+            shootSpeedTime -= Time.deltaTime;
+        }
+
+        if (shootSpeedTime <= 0f && pickOne == 2)
+        {
+            Shoot();
+            shootSpeedTime = shootSpeed3;
+        } 
+        else
+        {
+            shootSpeedTime -= Time.deltaTime;
+        }
+
+
    }
 
    void Shoot()

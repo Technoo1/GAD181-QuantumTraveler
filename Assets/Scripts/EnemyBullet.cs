@@ -22,11 +22,12 @@ public class EnemyBullet : MonoBehaviour
     void OnTriggerEnter2D (Collider2D hitInfo)
     {
         Player player = hitInfo.GetComponent<Player>();
-        if (player != null)
+        /*if (player != null)
         {
             lifePoints.TakeDamage(1);
            
         }
+        */
 
         Instantiate(impactEffect,transform.position, transform.rotation);
 
