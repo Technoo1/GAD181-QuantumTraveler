@@ -53,7 +53,7 @@ namespace S1
             if (GetQPiece.teleport == true)
             {
                Time.timeScale = 1f;
-               SceneManager.LoadScene("TransitionANI2");
+               SceneManager.LoadScene("TransitionANI5");
             }
 
             if (ResetScene == true && Input.GetKeyDown(KeyCode.Z) && CanvasCheckB == true)

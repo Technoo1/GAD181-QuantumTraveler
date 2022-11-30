@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SIyuan folder/TransitionANI2.unity
     guid: 17e87529c3746da42823b14eba8d6b54
+  - enabled: 1
+    path: Assets/SIyuan folder/TransitionANI5.unity
+    guid: fdd0179ffdabb774999cb13dba88c845
   m_configObjects: {}
