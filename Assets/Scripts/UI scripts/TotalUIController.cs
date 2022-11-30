@@ -8,13 +8,13 @@ namespace FT
     public class TotalUIController : MonoBehaviour
     {
         [SerializeField] public Health playerLifeCheck;
-        //public DrMTakeDamage GetQPiece;
+        public PlayerTakesDamage GetQPiece;
         public bool CanvasCheckB = false;
         public GameObject CanvasB;
         public GameObject CanvasC;
         public GameObject Yes;
         public GameObject No;
-        //public GameObject QPiece;
+        public GameObject QPiece;
         public bool ResetScene;
         public GameObject PlayerAlex;
 
@@ -31,7 +31,7 @@ namespace FT
                 Yes.SetActive(true);
                 ResetScene = true;
                 No.SetActive(false);
-                //QPiece.SetActive(false);
+                QPiece.SetActive(false);
                 CanvasCheckB = true;
                 Destroy(PlayerAlex);
             }
@@ -48,11 +48,11 @@ namespace FT
                 No.SetActive(false);
             }
 
-            /*if (GetQPiece.teleport == true)
+            if (GetQPiece.teleport == true)
             {
                 CanvasC.SetActive(true);
             }
-            */
+            
 
             if (ResetScene == true && Input.GetKeyDown(KeyCode.Z) && CanvasCheckB == true)
             {

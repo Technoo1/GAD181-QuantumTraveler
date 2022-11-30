@@ -22,12 +22,12 @@ public class PlayerTakesDamage : MonoBehaviour
             phasehit = 1;
         }
 
-           /* if (collision.gameObject.tag == "QPiece")
+           if (collision.gameObject.tag == "Chip")
         {
             teleport = true;
             Destroy(collision.gameObject);
 
         }
-        */
+        
      }
 }
