@@ -19,7 +19,7 @@ public class SceneTransfer2 : MonoBehaviour
 
         if (timerT2 >= 4.0f)
         {
-            SceneManager.LoadScene("TestMainMenu");
+            SceneManager.LoadScene("TopGun");
         }
     }
 }

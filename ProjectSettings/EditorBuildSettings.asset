@@ -18,6 +18,18 @@ EditorBuildSettings:
     path: Assets/SIyuan folder/TransitionANI2.unity
     guid: 17e87529c3746da42823b14eba8d6b54
   - enabled: 1
+    path: Assets/Dan's folder/Scenes/TopGun.unity
+    guid: 4d0ba2f1096d58a45aaa4ec97dc81ff1
+  - enabled: 1
+    path: Assets/SIyuan folder/TransitionANI4.unity
+    guid: 83f982722a6f5b044b06c7e9d488b79d
+  - enabled: 1
+    path: Assets/SIyuan folder/FireEscape.unity
+    guid: 05ea4a7c9042a9d4caf116f9829f7b65
+  - enabled: 1
     path: Assets/SIyuan folder/TransitionANI5.unity
+    guid: 3e6754f1d0c576f4191ab4f2177ff894
+  - enabled: 1
+    path: Assets/SIyuan folder/EndScene.unity
     guid: fdd0179ffdabb774999cb13dba88c845
   m_configObjects: {}

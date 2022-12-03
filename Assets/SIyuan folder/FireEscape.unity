@@ -883,7 +883,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330772462}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.65, y: 16.9, z: 29.32}
+  m_LocalPosition: {x: 32.65, y: 16.08, z: 29.32}
   m_LocalScale: {x: 2.617191, y: 3.4010584, z: 1.0993551}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3337,11 +3337,11 @@ GameObject:
   - component: {fileID: 1619170688}
   - component: {fileID: 1619170685}
   - component: {fileID: 1619170684}
-  - component: {fileID: 1619170683}
   - component: {fileID: 1619170689}
   - component: {fileID: 1619170690}
   - component: {fileID: 1619170691}
   - component: {fileID: 1619170692}
+  - component: {fileID: 1619170693}
   m_Layer: 0
   m_Name: DrM
   m_TagString: DrM
@@ -3349,25 +3349,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1619170683
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1619170681}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1258acdc46139dd40b23f25b87817b4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DrSpeed: 4.1
-  DrM: {fileID: 1619170684}
-  jumpForce: 6
-  isGrounded: 0
-  anim: {fileID: 1619170690}
-  anim2: {fileID: 0}
-  DrMJump: {fileID: 796472736}
 --- !u!54 &1619170684
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3405,7 +3386,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1619170681}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.57, y: 5.62, z: 21.96}
+  m_LocalPosition: {x: 30.59, y: 5.81, z: 21.96}
   m_LocalScale: {x: 0.15823525, y: 0.13823639, z: 0.80554}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3453,7 +3434,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7eacb62533adeb4459b594b427243994, type: 3}
+  m_Sprite: {fileID: 1605320956, guid: 79676ff0726596e44b2c8dd06fd232b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3474,7 +3455,7 @@ Animator:
   m_GameObject: {fileID: 1619170681}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fd0ffd85c6a517a428d2cbc2fe19e414, type: 2}
+  m_Controller: {fileID: 9100000, guid: b96ede74d9541554496b9d66b334b746, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3513,6 +3494,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hit: 0
   teleport: 0
+--- !u!114 &1619170693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1619170681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e22c82d39601b5a4198a9583639bd69d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DrSpeedF: 4.1
+  DrMF: {fileID: 1619170684}
+  jumpForceF: 6.1
+  isGroundedF: 0
+  animF: {fileID: 1619170690}
+  DrMJumpF: {fileID: 796472736}
 --- !u!1 &1631119790
 GameObject:
   m_ObjectHideFlags: 0
@@ -3801,13 +3800,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerLifeCheck: {fileID: 1619170691}
-  GetQPiece: {fileID: 1619170692}
+  GetQPieceF: {fileID: 1619170692}
   CanvasCheckB: 0
   CanvasB: {fileID: 1902231672}
   CanvasC: {fileID: 1972995498}
   FlashBack: {fileID: 686140039}
   Nope: {fileID: 145057481}
-  QPiece: {fileID: 1000137042}
+  QPieceF: {fileID: 987522643}
   ResetScene: 0
   PlayerS1: {fileID: 1619170681}
 --- !u!114 &1690865162
@@ -3911,8 +3910,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.497545, y: 4.667156, z: 1}
-  m_Center: {x: 0.018643303, y: -0.3237905, z: 0}
+  m_Size: {x: 3.497545, y: 4.6671557, z: 2.5227656}
+  m_Center: {x: 0.018643301, y: -0.32379046, z: 0.24890172}
 --- !u!4 &1720797280
 Transform:
   m_ObjectHideFlags: 0
@@ -3921,7 +3920,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1720797277}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 31.054611, y: -1.9, z: 22.07}
+  m_LocalPosition: {x: 31.054611, y: -1.9, z: 20.71}
   m_LocalScale: {x: 10.861982, y: 1.7749997, z: 3.0412202}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4247,8 +4246,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.44719282, y: 4.8589487, z: 0.996894}
-  m_Center: {x: -1.9161621, y: 1.4632783, z: -0.0046929126}
+  m_Size: {x: 0.370446, y: 3.6388175, z: 0.996894}
+  m_Center: {x: -1.8777888, y: 0.85321283, z: -0.0046929126}
 --- !u!114 &1791757698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4572,10 +4571,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3

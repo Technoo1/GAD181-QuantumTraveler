@@ -56,13 +56,13 @@ namespace S1
                SceneManager.LoadScene("TransitionANI2");
             }
 
-            if (ResetScene == true && Input.GetKeyDown(KeyCode.Z) && CanvasCheckB == true)
+            if (ResetScene == true && Input.GetKeyDown(KeyCode.Return) && CanvasCheckB == true)
             {
                 Time.timeScale = 1f;
                 SceneManager.LoadScene("SoldierBoy");
             }
 
-             if (ResetScene == false && Input.GetKeyDown(KeyCode.Z) && CanvasCheckB == true)
+             if (ResetScene == false && Input.GetKeyDown(KeyCode.Return) && CanvasCheckB == true)
             {
                 Time.timeScale = 1f;
                 SceneManager.LoadScene("TestMainMenu");

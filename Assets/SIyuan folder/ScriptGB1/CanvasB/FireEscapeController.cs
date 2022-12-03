@@ -8,13 +8,13 @@ namespace S1
  public class FireEscapeController : MonoBehaviour
  {
     [SerializeField] public HealthS1 playerLifeCheck;
-    public DrMTakeDamage GetQPiece;
+    public DrMTakeDamage GetQPieceF;
     public bool CanvasCheckB = false;
     public GameObject CanvasB;
     public GameObject CanvasC;
     public GameObject FlashBack;
     public GameObject Nope;
-    public GameObject QPiece;
+    public GameObject QPieceF;
     public bool ResetScene;
     public GameObject PlayerS1;
 
@@ -31,7 +31,7 @@ namespace S1
                 FlashBack.SetActive(true);
                 ResetScene = true;
                 Nope.SetActive(false);
-                QPiece.SetActive(false);
+                QPieceF.SetActive(false);
                 CanvasCheckB = true;
                 Time.timeScale = 0f;
 
@@ -50,19 +50,19 @@ namespace S1
                 Nope.SetActive(false);
             }
 
-            if (GetQPiece.teleport == true)
+            if (GetQPieceF.teleport == true)
             {
                Time.timeScale = 1f;
                SceneManager.LoadScene("TransitionANI5");
             }
 
-            if (ResetScene == true && Input.GetKeyDown(KeyCode.Z) && CanvasCheckB == true)
+            if (ResetScene == true && Input.GetKeyDown(KeyCode.Return) && CanvasCheckB == true)
             {
                 Time.timeScale = 1f;
                 SceneManager.LoadScene("FireEscape");
             }
 
-             if (ResetScene == false && Input.GetKeyDown(KeyCode.Z) && CanvasCheckB == true)
+             if (ResetScene == false && Input.GetKeyDown(KeyCode.Return) && CanvasCheckB == true)
             {
                 Time.timeScale = 1f;
                 SceneManager.LoadScene("TestMainMenu");
