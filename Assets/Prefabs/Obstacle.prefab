@@ -201,6 +201,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2868667803997234325}
+  - component: {fileID: 545822470675279681}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Enemy
@@ -225,6 +226,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &545822470675279681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2879506152049811690}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fea3096c37119ad449464771900c237b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.2
+  targetPoint: {fileID: 0}
 --- !u!1 &5410346851573708512
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,7 +284,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ecc29427ec1ffee4086ad5b72d9dd1f5, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.19
+  m_Volume: 0.17
   m_Pitch: 0.48
   Loop: 0
   Mute: 0
@@ -367,6 +382,7 @@ GameObject:
   - component: {fileID: 7173950125284320053}
   - component: {fileID: 536618476462561982}
   - component: {fileID: 8304621664875366417}
+  - component: {fileID: 7586061410992892813}
   m_Layer: 0
   m_Name: Obstacle Sprite
   m_TagString: Enemy
@@ -522,3 +538,17 @@ MonoBehaviour:
   shootSpeed1: 2
   shootSpeed2: 2.8
   shootSpeed3: 3.5
+--- !u!114 &7586061410992892813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5670510437767942616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e36734c0896ed35478613c016081e5b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementTimerT: 0
+  movementSpeedT: 1.3
