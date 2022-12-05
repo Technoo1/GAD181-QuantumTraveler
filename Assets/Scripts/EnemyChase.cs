@@ -6,13 +6,20 @@ namespace FT
     public class EnemyChase : MonoBehaviour
     {
         private Rigidbody2D rb;
+
         public Transform player;
         public float speed = 5.0f;
+
         public Health checkLife;
         public PlayerTakesDamage phaseCheck;
         public float phaseTimer1 = 4.0f;
         public float phaseTime;
         public int phasehit;
+
+        public float xMin;
+        public float xMax;
+        public float yMin;
+        public float yMax;
 
         void Start()
         {
@@ -20,22 +27,24 @@ namespace FT
            phaseTime = 0.0f;
         }
 
-        void Update()
+        void LateUpdate()
         {
             if (phaseTime > 0.0f)
             {
                 phaseTime -= Time.deltaTime;
             }
             
-
-
             if (checkLife.currentHealth > 0 && phaseCheck.hit == 0 && phaseTime == 0.0f)
             {
-                //Vector2 pos = new Vector2(player.position.x, rb.velocity.y);
-                var step =  speed * Time.deltaTime;
+                Vector2 pos = new Vector2(player.position.x, rb.velocity.y);
+                //var step =  speed * Time.deltaTime;
 
                 //rb.velocity = Vector2.MoveTowards(this.transform.position, pos, speed * Time.deltaTime);
-                transform.position = Vector3.MoveTowards(transform.position, player.position, step);
+                //transform.position = Vector3.MoveTowards(transform.position, player.position, step);
+
+                float x = Mathf.Clamp(player.transform.position.x, xMin, xMax);
+                float y = Mathf.Clamp(player.transform.position.y, yMin, yMax);
+                gameObject.transform.position = new Vector3(x, y, gameObject.transform.position.z);
             }
             
             if  (phaseCheck.phasehit == 1)
