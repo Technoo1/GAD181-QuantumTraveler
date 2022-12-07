@@ -88,7 +88,7 @@ public class MainMenuUIController : MonoBehaviour
 
           if (StartGame == true && Input.GetKeyDown(KeyCode.Return))
             {
-                SceneManager.LoadScene("TransitionANI1");
+                SceneManager.LoadScene("InstructionScene");
             }
 
           if (ShowCredit == true && Input.GetKeyDown(KeyCode.Return))

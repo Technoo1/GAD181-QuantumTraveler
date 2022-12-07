@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/SIyuan folder/TestMainMenu.unity
     guid: 1f016a54ea782314fb26beee66053a78
   - enabled: 1
+    path: Assets/SIyuan folder/InstructionScene.unity
+    guid: 2f54ed668dd610c4a8ff3f66cfd76bd4
+  - enabled: 1
     path: Assets/SIyuan folder/TransitionANI1.unity
     guid: 0cfac4e23596098498f2f88d7b6ff978
   - enabled: 1
@@ -20,6 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Dan's folder/Scenes/TopGun.unity
     guid: 4d0ba2f1096d58a45aaa4ec97dc81ff1
+  - enabled: 1
+    path: Assets/SIyuan folder/TransitionANI3.unity
+    guid: 45c7d0c4da0770845906536e962ce82c
+  - enabled: 1
+    path: Assets/Alex's folder/Scenes/Fame Trap.unity
+    guid: 9b437f66441e8cd4ea61a84ca71e6090
   - enabled: 1
     path: Assets/SIyuan folder/TransitionANI4.unity
     guid: 83f982722a6f5b044b06c7e9d488b79d
