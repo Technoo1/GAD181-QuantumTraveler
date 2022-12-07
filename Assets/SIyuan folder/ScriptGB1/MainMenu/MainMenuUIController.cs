@@ -90,5 +90,10 @@ public class MainMenuUIController : MonoBehaviour
             {
                 SceneManager.LoadScene("TransitionANI1");
             }
+
+          if (ShowCredit == true && Input.GetKeyDown(KeyCode.Return))
+          {
+            SceneManager.LoadScene("CreditScene");
+          }
     }
 }

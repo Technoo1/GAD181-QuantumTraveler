@@ -10,12 +10,15 @@ namespace S1
         public FireEscapeController checkCanvasB;
         public AudioSource phaseMenuM1;
         public bool phaseMusic;
-        public AudioSource EnemyShootS1;
+        //public AudioSource EnemyShootS1;
+        public bool GameOverMusic;
+        public AudioSource GameOverSFX;
 
 
         void Start()
         {
             phaseMusic = false;
+            GameOverMusic = false;
         }
 
         void Update()
@@ -28,9 +31,11 @@ namespace S1
             if (checkCanvasB.CanvasCheckB == true && phaseMusic == false)
             {
                 BackGrounM1.volume = 0.0f;
-                EnemyShootS1.volume = 0.0f;
+                //EnemyShootS1.volume = 0.0f;
+                GameOverSFX.Play();
                 phaseMenuM1.Play();
                 phaseMusic = true;
+                GameOverMusic = true;
             }
         }
     }

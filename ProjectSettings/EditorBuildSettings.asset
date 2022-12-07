@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SIyuan folder/EndScene.unity
     guid: fdd0179ffdabb774999cb13dba88c845
+  - enabled: 1
+    path: Assets/SIyuan folder/CreditScene.unity
+    guid: 16023dfd401532d41b0e3d6c3c910bae
   m_configObjects: {}
