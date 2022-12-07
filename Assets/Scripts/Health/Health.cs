@@ -59,7 +59,6 @@ namespace FT
             {
                 Debug.Log("Hit " + hitCheck.hit);
                 TakeDamage(1);
-                //audio
                 hitCheck.hit = 0;
             }
 

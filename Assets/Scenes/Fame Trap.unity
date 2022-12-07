@@ -290,7 +290,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: f47757c7d53506a4a9ba695fe8bd1041, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.77
+  m_Volume: 0.6
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1604,6 +1604,7 @@ GameObject:
   - component: {fileID: 434356656}
   - component: {fileID: 434356655}
   - component: {fileID: 434356657}
+  - component: {fileID: 434356658}
   m_Layer: 7
   m_Name: Enemy
   m_TagString: Enemy
@@ -1619,7 +1620,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 434356643}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -47, y: 3.8, z: 0}
+  m_LocalPosition: {x: -49.5, y: 3.54, z: 0}
   m_LocalScale: {x: 1.1882436, y: 1.1882436, z: 1.1882436}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1746,6 +1747,26 @@ MonoBehaviour:
   phaseTime: 0
   phasehit: 0
   phaseCheck: {fileID: 54778387}
+--- !u!95 &434356658
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434356643}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7359037aef506784faddd57b4393a828, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &453137250 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7331446796142208607, guid: aee950fb3d89de04b9510384d42d2ed1, type: 3}
@@ -2723,8 +2744,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 647479840}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 57.7, y: -0.29817, z: -6.872379}
-  m_LocalScale: {x: 0.54782003, y: 0.54782003, z: 0.54782003}
+  m_LocalPosition: {x: 796.1, y: -0.29817, z: -6.872379}
+  m_LocalScale: {x: 0.5817301, y: 0.5817301, z: 0.5817301}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -4834,7 +4855,7 @@ MonoBehaviour:
   checkT1: {fileID: 1852875339}
   degreesPerSecond: 30
   DSpeed2: 75
-  DSpeed3: 140
+  DSpeed3: 160
 --- !u!1001 &1514049300
 PrefabInstance:
   m_ObjectHideFlags: 0
