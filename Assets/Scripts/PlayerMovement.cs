@@ -5,9 +5,11 @@ namespace FT
 {
     public class PlayerMovement : MonoBehaviour
     {
-        Rigidbody2D rb;
+        Rigidbody2D rbPlayer;
         private SpriteRenderer sprite;
         private Animator anim;
+
+        public bool isGrounded;
 
         private float dirX;
         [SerializeField] private float moveSpeed = 15f;
@@ -21,23 +23,31 @@ namespace FT
         //start
         void Start()
         {
-            rb = GetComponent<Rigidbody2D>();
+            rbPlayer = GetComponent<Rigidbody2D>();
             sprite = GetComponent<SpriteRenderer>();
             anim = GetComponent<Animator>();
         }
-
+        
+        private void OnCollisionStay2D()
+        {
+           
+            isGrounded = true;
+            Debug.Log("is grounded");
+        }
         //update
         void Update()
         {
             dirX = Input.GetAxisRaw("Horizontal");
-            rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+            rbPlayer.velocity = new Vector2(dirX * moveSpeed, rbPlayer.velocity.y);
+            Debug.Log("moving ok");
 
-            if (Input.GetButtonDown("Jump"))
+            if (isGrounded && Input.GetKeyDown("x"))
             {
+                //Debug.Log("X pressed.");
                 jumpSound.Play();
-                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+                rbPlayer.velocity = new Vector2(rbPlayer.velocity.x, jumpForce);
             }
-            else if (rb.velocity.x != 0f)
+            else if (rbPlayer.velocity.x != 0f)
             {
                 if (!walkSound.isPlaying)
                 {
@@ -74,7 +84,7 @@ namespace FT
                 state = MovementState.idle;
             }
 
-            if(rb.velocity.y != 0f)
+            if(rbPlayer.velocity.y != 0f)
             {
                 state = MovementState.jumping;
             }
@@ -84,6 +94,11 @@ namespace FT
             }*/
 
             anim.SetInteger("state", (int)state);
+        }
+
+        private void OnCollisionExit2D()
+        {
+            isGrounded = false;
         }
     }
 }

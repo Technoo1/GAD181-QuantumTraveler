@@ -17,6 +17,7 @@ namespace FT
         public GameObject QPiece;
         public bool ResetScene;
         public GameObject PlayerAlex;
+        public GameObject EnemyFT;
 
         public void start()
         {
@@ -34,6 +35,7 @@ namespace FT
                 QPiece.SetActive(false);
                 CanvasCheckB = true;
                 Destroy(PlayerAlex);
+                Destroy(EnemyFT);
             }
             if (Input.GetKey(KeyCode.RightArrow) && CanvasCheckB == true)
             {

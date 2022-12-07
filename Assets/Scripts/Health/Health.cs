@@ -11,6 +11,9 @@ namespace FT
         [SerializeField] public float currentHealth { get; private set; }
         private Animator anim; 
         public PlayerTakesDamage hitCheck;
+        private bool takingDamage = false;
+        private float damageTime = 0.5f;
+        private float curTime = 0f;
 
         public AudioClip takeDamageSFX;
         AudioSource audioSource; 
@@ -23,18 +26,15 @@ namespace FT
         }
 
 
-        public void TakeDamage(int damage)
+        public void TakeDamage(float damage)
         {
             currentHealth -= damage;
+            Debug.Log("Damaged, current health " + currentHealth + " minus " + damage);
             if (currentHealth > 0)
             {
                 anim.SetBool("TakesDamage", true);   //these will trigger the animations 
                 audioSource.PlayOneShot(takeDamageSFX, 1f);
-            }
-
-            else
-            {
-                anim.SetBool("TakesDamage", false);
+                takingDamage = true;
             }
         }
 
@@ -42,15 +42,31 @@ namespace FT
         //uncomment to test if the health bar is correctly recording current health 
        public void Update()
        {
+            if (takingDamage)
+            {
+                if(curTime < damageTime)
+                {
+                    curTime += Time.deltaTime;
+                }
+                else
+                {
+                    anim.SetBool("TakesDamage", false);
+                    curTime = 0f;
+                    takingDamage = false;
+                }
+            }
             if (hitCheck.hit == 1)
             {
-              TakeDamage(1);
-              //audio
-              hitCheck.hit = 0;
+                Debug.Log("Hit " + hitCheck.hit);
+                TakeDamage(1);
+                //audio
+                hitCheck.hit = 0;
             }
 
            if (Input.GetKeyDown(KeyCode.E))
-           TakeDamage(1);
+            {
+                TakeDamage(1);
+            }
        }
 
 

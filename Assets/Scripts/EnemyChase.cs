@@ -5,7 +5,7 @@ namespace FT
 {
     public class EnemyChase : MonoBehaviour
     {
-        private Rigidbody2D rb;
+        private Rigidbody2D rbEnemy;
 
         public Transform player;
         public float speed = 5.0f;
@@ -23,7 +23,7 @@ namespace FT
 
         void Start()
         {
-           rb = GetComponent<Rigidbody2D>();
+           rbEnemy = GetComponent<Rigidbody2D>();
            phaseTime = 0.0f;
         }
 
@@ -36,15 +36,16 @@ namespace FT
             
             if (checkLife.currentHealth > 0 && phaseCheck.hit == 0 && phaseTime == 0.0f)
             {
-                Vector2 pos = new Vector2(player.position.x, rb.velocity.y);
+                Vector2 pos = new Vector2(player.position.x, rbEnemy.velocity.y);
+                //Vector2 pos = new Vector2(-25, rbEnemy.velocity.y);
                 //var step =  speed * Time.deltaTime;
 
                 //rb.velocity = Vector2.MoveTowards(this.transform.position, pos, speed * Time.deltaTime);
                 //transform.position = Vector3.MoveTowards(transform.position, player.position, step);
 
-                float x = Mathf.Clamp(player.transform.position.x, xMin, xMax);
+                float x = Mathf.Clamp(player.transform.position.y, xMin, xMax);
                 float y = Mathf.Clamp(player.transform.position.y, yMin, yMax);
-                gameObject.transform.position = new Vector3(x, y, gameObject.transform.position.z);
+                gameObject.transform.position = new Vector3(x-20f, y, gameObject.transform.position.z);
             }
             
             if  (phaseCheck.phasehit == 1)
@@ -55,5 +56,5 @@ namespace FT
 
             }
         }
-    }
-}
+    } 
+} 
