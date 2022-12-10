@@ -95,5 +95,10 @@ public class MainMenuUIController : MonoBehaviour
           {
             SceneManager.LoadScene("CreditScene");
           }
+
+           if (ExitGame == true && Input.GetKeyDown(KeyCode.Return))
+          {
+             Application.Quit();
+          }
     }
 }
