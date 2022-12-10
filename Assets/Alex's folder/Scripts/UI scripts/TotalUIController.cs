@@ -34,7 +34,7 @@ namespace FT
                 No.SetActive(false);
                 QPiece.SetActive(false);
                 CanvasCheckB = true;
-                Destroy(PlayerAlex);
+                PlayerAlex.SetActive(false);;
                 Destroy(EnemyFT);
             }
             if (Input.GetKey(KeyCode.RightArrow) && CanvasCheckB == true)
@@ -52,7 +52,7 @@ namespace FT
 
             if (GetQPiece.teleport == true)
             {
-                SceneManager.LoadScene("TransitionANI4");
+                SceneManager.LoadScene("TransitionANI3");
             }
             
 

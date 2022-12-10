@@ -6,29 +6,35 @@ namespace FT
     public class BackgroundMusicController : MonoBehaviour
     {
         public AudioSource BackGroundM2;
-        public InnerTimerDraft1 TimeCheckSFX;
+        public InnerTimerDraft1 TimeCheckSFXFT;
         public TotalUIController checkCanvasB;
-        public AudioSource phaseMenuM1;
-        public bool phaseMusic;
-        //public AudioSource EnemyShoot;
+        public AudioSource phaseMenuFT;
+        public bool phaseMusicFT;
+        public AudioSource SirenSFX;
+        public bool GameOverMusicFT;
+        public AudioSource GameOverSFX;
+
         void Start()
         {
-            phaseMusic = false;
+            phaseMusicFT = false;
+            GameOverMusicFT = false;
         }
 
         void Update()
         {
-            if (TimeCheckSFX.difficultyL2 == true)
+            if (TimeCheckSFXFT.difficultyL2 == true)
             {
 
             }
 
-            if (checkCanvasB.CanvasCheckB == true && phaseMusic == false)
+            if (checkCanvasB.CanvasCheckB == true && phaseMusicFT == false && GameOverMusicFT == false)
             {
                 BackGroundM2.volume = 0.0f;
-                //EnemyShoot.volume = 0.0f;
-                phaseMenuM1.Play();
-                phaseMusic = true;
+                SirenSFX.volume = 0.0f;
+                phaseMenuFT.Play();
+                GameOverSFX.Play();
+                phaseMusicFT = true;
+                GameOverMusicFT = true;
             }
         }
     }

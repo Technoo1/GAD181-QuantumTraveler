@@ -54,7 +54,7 @@ namespace TG
             if (GetQPiece.teleport == true)
             {
                 Time.timeScale = 1f;
-               SceneManager.LoadScene("TransitionANI3");
+               SceneManager.LoadScene("TransitionANI4");
             }
             
 

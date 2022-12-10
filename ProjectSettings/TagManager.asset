@@ -10,6 +10,9 @@ TagManager:
   - QPiece
   - PlayerBullet
   - Fire
+  - Chip
+  - Ground
+  - Border
   layers:
   - Default
   - TransparentFX
@@ -18,7 +21,7 @@ TagManager:
   - Water
   - UI
   - DrM Bullet
-  - 
+  - Ground
   - 
   - 
   - 

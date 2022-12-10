@@ -20,7 +20,7 @@ public class SceneTransfer3: MonoBehaviour
 
         if (timerT3 >= 4.0f)
         {
-            SceneManager.LoadScene("Fame Trap");
+            SceneManager.LoadScene("TopGun");
         }
     }
 }

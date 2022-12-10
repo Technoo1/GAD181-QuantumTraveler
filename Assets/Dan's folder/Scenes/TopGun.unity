@@ -875,6 +875,7 @@ GameObject:
   m_Component:
   - component: {fileID: 559750291}
   - component: {fileID: 559750292}
+  - component: {fileID: 559750293}
   m_Layer: 0
   m_Name: TotalUIControl
   m_TagString: Untagged
@@ -919,6 +920,18 @@ MonoBehaviour:
   QPiece: {fileID: 615331120}
   ResetScene: 0
   PlayerDan: {fileID: 121007799}
+--- !u!114 &559750293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559750290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1252ba5ee04fd1428414802480b647a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &613828443
 GameObject:
   m_ObjectHideFlags: 0
@@ -1027,7 +1040,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -104123296, guid: 2b783c77e94ac334facf05f3f39e4a26, type: 3}
+  m_Sprite: {fileID: -301055224, guid: 2b783c77e94ac334facf05f3f39e4a26, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

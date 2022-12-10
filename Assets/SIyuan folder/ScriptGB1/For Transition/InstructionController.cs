@@ -15,7 +15,7 @@ public class InstructionController : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.Return))
         {
-            SceneManager.LoadScene("TransitionANI1");
+            SceneManager.LoadScene("ControlTutorialScene");
         }
     }
 }

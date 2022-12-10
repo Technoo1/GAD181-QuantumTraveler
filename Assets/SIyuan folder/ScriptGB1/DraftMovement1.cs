@@ -6,9 +6,9 @@ namespace S1
     public class DraftMovement1 : MonoBehaviour
     {
         public float DrSpeed = 3.0f;
-        public Rigidbody DrM;
-        public float jumpForce = 6.8f;
-        public bool isGrounded;
+        //public Rigidbody DrM;
+        //public float jumpForce = 6.8f;
+        //public bool isGrounded;
         public Animator anim;
        
         public AudioSource DrMJump;
@@ -16,10 +16,11 @@ namespace S1
         {
             DrSpeed = 3.0f;
         }
-        private void OnCollisionStay()
+        /*private void OnCollisionStay()
         {
             isGrounded = true;
         }
+        */
         void Update()
         {
             anim.SetBool("WalkWithGun", false);
@@ -39,18 +40,20 @@ namespace S1
             }
             //Moving left and right.
 
-            if (isGrounded && Input.GetKeyDown(KeyCode.X))
+            /*if (isGrounded && Input.GetKeyDown(KeyCode.X))
             {
                 DrM.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
                 DrMJump.Play();
             }
+            */
             //Simple jump with ground check.
 
         }
         
-        private void OnCollisionExit()
+        /*private void OnCollisionExit()
         {
             isGrounded = false;
         }
+        */
     }
 }

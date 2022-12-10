@@ -3,24 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace S1
 {
-public class FireEscapeMovement : MonoBehaviour
-{
-    
+    public class FireEscapeMovement : MonoBehaviour
+    {
+
         public float DrSpeedF = 3.0f;
-        public Rigidbody DrMF;
-        public float jumpForceF = 6.8f;
-        public bool isGroundedF;
+        //public Rigidbody DrMF;
+        //public float jumpForceF = 6.8f;
+        //public bool isGroundedF;
         public Animator animF;
-       
+
         public AudioSource DrMJumpF;
         void Start()
         {
             DrSpeedF = 3.0f;
         }
-        private void OnCollisionStay()
+        /*private void OnCollisionStay()
         {
             isGroundedF = true;
         }
+        */
         void Update()
         {
             animF.SetBool("WalkWithOutGun", false);
@@ -40,7 +41,7 @@ public class FireEscapeMovement : MonoBehaviour
             }
             //Moving left and right.
 
-            if (isGroundedF && Input.GetKeyDown(KeyCode.X))
+            /*if (isGroundedF && Input.GetKeyDown(KeyCode.X))
             {
                 DrMF.AddForce(Vector3.up * jumpForceF, ForceMode.Impulse);
                 DrMJumpF.Play();
@@ -48,10 +49,13 @@ public class FireEscapeMovement : MonoBehaviour
             //Simple jump with ground check.
 
         }
+            */
 
-        private void OnCollisionExit()
-        {
-            isGroundedF = false;
+            /*private void OnCollisionExit()
+            {
+                isGroundedF = false;
+            }
+            */
         }
     }
 }

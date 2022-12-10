@@ -83,11 +83,18 @@ namespace FT
             {
                 state = MovementState.idle;
             }
-
-            if(rbPlayer.velocity.y != 0f)
+             
+             if(isGrounded == false)
             {
                 state = MovementState.jumping;
             }
+            
+            /*if(rbPlayer.velocity.y != 0f)
+            {
+                state = MovementState.jumping;
+            }
+            */
+
             /*else if (rb.velocity.y < -.01f)
             {
                 state = MovementState.falling;
