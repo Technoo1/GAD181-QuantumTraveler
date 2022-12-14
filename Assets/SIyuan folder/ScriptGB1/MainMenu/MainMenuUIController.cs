@@ -32,7 +32,7 @@ public class MainMenuUIController : MonoBehaviour
                 QuitIcon.SetActive(false);
          }
 
-         if (Input.GetKeyDown(KeyCode.UpArrow) && StartGame == false && ShowCredit == true && ExitGame == false)
+         else if (Input.GetKeyDown(KeyCode.UpArrow) && StartGame == false && ShowCredit == true && ExitGame == false)
          {
              StartGame = true;
              ShowCredit = false;
@@ -42,7 +42,7 @@ public class MainMenuUIController : MonoBehaviour
                 QuitIcon.SetActive(false);
          }
 
-         if (Input.GetKeyDown(KeyCode.UpArrow) && StartGame == false && ShowCredit == false && ExitGame == true)
+         else if (Input.GetKeyDown(KeyCode.UpArrow) && StartGame == false && ShowCredit == false && ExitGame == true)
          {
              StartGame = false;
              ShowCredit = true;
@@ -52,7 +52,7 @@ public class MainMenuUIController : MonoBehaviour
                 QuitIcon.SetActive(false);
          }
 
-          if (Input.GetKeyDown(KeyCode.DownArrow) && StartGame == true && ShowCredit == false && ExitGame == false)
+          if (Input.GetKeyDown(KeyCode.DownArrow) && StartGame == true && ShowCredit == false && ExitGame == false)  //Use if-else if !
          {
             StartGame = false;
             ShowCredit = true;
@@ -64,7 +64,7 @@ public class MainMenuUIController : MonoBehaviour
 
          }
 
-          if (Input.GetKeyDown(KeyCode.DownArrow) && StartGame == false && ShowCredit == true && ExitGame == false)
+          else if (Input.GetKeyDown(KeyCode.DownArrow) && StartGame == false && ShowCredit == true && ExitGame == false)
          {
              StartGame = false;
              ShowCredit = false;
@@ -75,7 +75,7 @@ public class MainMenuUIController : MonoBehaviour
          }
          
 
-          if (Input.GetKeyDown(KeyCode.DownArrow) && StartGame == false && ShowCredit == false && ExitGame == true)
+          else if (Input.GetKeyDown(KeyCode.DownArrow) && StartGame == false && ShowCredit == false && ExitGame == true)
          {
              StartGame = false;
               ShowCredit = false;

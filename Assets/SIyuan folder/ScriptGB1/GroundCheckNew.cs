@@ -13,6 +13,7 @@ public class GroundCheckNew : MonoBehaviour
         public Transform offsetPosition2;
         public float groundCheckDistance;
         public LayerMask groundLayer;
+        public AudioSource DrMJumpF;
 
         // Start is called before the first frame update
         void Start()
@@ -30,7 +31,7 @@ public class GroundCheckNew : MonoBehaviour
              if (IsGrounded() && Input.GetKeyDown(KeyCode.X))
                 {
                     DrM.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-                    //DrMJump.Play();
+                    DrMJumpF.Play();
                 }
         }
 

@@ -317,7 +317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc402da3625d64e41a5ecc85a6dfa969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  degreesPerSecondT: 180
+  degreesPerSecondT: 160
 --- !u!1 &1125861651
 GameObject:
   m_ObjectHideFlags: 0

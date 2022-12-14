@@ -12,7 +12,7 @@ namespace S1
         //public bool isGroundedF;
         public Animator animF;
 
-        public AudioSource DrMJumpF;
+        //public AudioSource DrMJumpF;
         void Start()
         {
             DrSpeedF = 3.0f;
@@ -41,7 +41,7 @@ namespace S1
             }
             //Moving left and right.
 
-            /*if (isGroundedF && Input.GetKeyDown(KeyCode.X))
+            /*if (isGroundedF && Input.GetKeyDown(KeyCode.X))   // Moved to another independent script as Jump & Grounded check.
             {
                 DrMF.AddForce(Vector3.up * jumpForceF, ForceMode.Impulse);
                 DrMJumpF.Play();
