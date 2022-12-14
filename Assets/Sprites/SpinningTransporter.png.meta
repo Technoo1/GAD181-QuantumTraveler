@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 55b1f5ccf6ca9794d9c803c756316ff5
+guid: 2b783c77e94ac334facf05f3f39e4a26
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,6 +100,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -107,72 +119,9 @@ TextureImporter:
       name: SpinningTransporter_0
       rect:
         serializedVersion: 2
-        x: 197
-        y: 3446
-        width: 1357
-        height: 1357
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 559821593d58a3141bb75a30bae1da37
-      internalID: 1983453828
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpinningTransporter_1
-      rect:
-        serializedVersion: 2
-        x: 1647
-        y: 3446
+        x: 198
+        y: 3447
         width: 1355
-        height: 1357
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f2f32b781b07ded43b03f2642b950233
-      internalID: 66472695
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpinningTransporter_2
-      rect:
-        serializedVersion: 2
-        x: 3097
-        y: 3446
-        width: 1357
-        height: 1357
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d8521b4fb950554fb8b14ab2c9260f8
-      internalID: 971443075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpinningTransporter_3
-      rect:
-        serializedVersion: 2
-        x: 197
-        y: 1998
-        width: 1357
         height: 1355
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -181,8 +130,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e378100ab215b64898a784d832f2f44
-      internalID: 163343413
+      spriteID: 01c1140e48622a349b084412eef1605a
+      internalID: -485127241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpinningTransporter_1
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 3447
+        width: 1352
+        height: 1355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780f34bad90d2444b9fb072817eb9b15
+      internalID: -104123296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpinningTransporter_2
+      rect:
+        serializedVersion: 2
+        x: 3098
+        y: 3447
+        width: 1355
+        height: 1355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f62b9471eee3e48a69ef1bd5269f9c
+      internalID: -301055224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpinningTransporter_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2000
+        width: 1355
+        height: 1352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec1c6d1f23b3e2498f58b89ffba3a99
+      internalID: 457895424
       vertices: []
       indices: 
       edges: []
@@ -190,7 +202,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 8673700b2f9d16e4fb8cbc22325d44bd
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -198,10 +210,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SpinningTransporter_2: 971443075
-      SpinningTransporter_1: 66472695
-      SpinningTransporter_3: 163343413
-      SpinningTransporter_0: 1983453828
+      SpinningTransporter_2: -301055224
+      SpinningTransporter_1: -104123296
+      SpinningTransporter_3: 457895424
+      SpinningTransporter_0: -485127241
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
